@@ -1,0 +1,52 @@
+/* Base Setup */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  overflow-x: hidden; /* Prevents unwanted horizontal scroll */
+  
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* App Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Navbar & Footer Full Width */
+.navbar,
+.footer {
+  width: 100%;
+}
+
+/* Page Sections */
+.media-page {
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to top , #ffffff 0%, #278df3 100%);
+}
+
+/* Content Width Limit */
+.gallery,
+.articles {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+main {
+  flex: 1; /* This fills the remaining height between Navbar and Footer */
+}

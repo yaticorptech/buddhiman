@@ -1,0 +1,174 @@
+/* =================== NAVBAR BASE STYLES =================== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #278df300;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+/* Hide navbar on scroll down */
+.navbar--hidden {
+  transform: translateY(-100%);
+}
+
+/* Show navbar on scroll up */
+.navbar--visible {
+  transform: translateY(0);
+}
+
+/* =================== LEFT SECTION (Logo + Title) =================== */
+.leftSide {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.leftSide img {
+  height: 50px;
+  width: auto;
+}
+
+.siteTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #011752;
+  font-family: 'Cursive', sans-serif;
+}
+
+/* =================== RIGHT SECTION (Menu Links) =================== */
+.rightSide {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  border: 2px solid;
+  border-radius: 100px;
+  border-color: #011752;
+}
+
+.rightSide a {
+  font-weight: bold;
+  padding: 5px;
+  color: #011752;
+  text-decoration: none;
+  margin: 0 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  
+}
+.rightSide a:hover{
+  color: #fcdb18;
+}
+
+/* =================== HAMBURGER MENU ICON =================== */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* =================== RESPONSIVE BREAKPOINTS =================== */
+
+/* --- Small Devices: max-width 600px --- */
+@media screen and (max-width: 600px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .rightSide {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 12px 18px;
+    gap: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+
+  .rightSide.active {
+    display: flex;
+  }
+
+  .rightSide a {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  .leftSide img {
+    height: 40px;
+    width: auto;
+  }
+
+  .siteTitle {
+    font-size: 16px;
+  }
+}
+
+/* --- Tablets: 601px to 769px --- */
+@media screen and (min-width: 601px) and (max-width: 769px) {
+  .rightSide a {
+    font-size: 14px;
+    margin: 0;
+    color: #000000;
+  }
+}
+
+/* --- Small Laptops: 770px to 1024px --- */
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  .siteTitle {
+    font-size: 22px;
+  }
+
+  .rightSide a {
+    font-size: 20px;
+  }
+}
+
+/* --- Laptops & Desktops: above 1024px --- */
+@media screen and (min-width: 1025px) {
+  .siteTitle {
+    font-size: 20px;
+  }
+
+  .rightSide a {
+    font-size: 16px;
+  }
+}

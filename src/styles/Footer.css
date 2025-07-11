@@ -1,0 +1,161 @@
+
+.footer {
+  background-color: #1c1b18;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+
+  text-align: center;
+  margin-top: auto;
+  max-height: fit-content;
+  gap: 20px;
+}
+.bw{
+  width: 120px;
+  height: 80px;
+  margin-top: 30px;
+}
+.yaticorpLogo{
+  width: 270px;
+  height: 60px;
+  margin-top: -25px;
+}
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.footerContent h1 {
+  font-size: 24px;
+  color: #278df3;
+  margin-bottom: -20px;
+}
+.footerContent h2 {
+  font-size: 24px;
+  margin-bottom: -10px;
+}
+.footerContent h3 {
+  font-size: 24px;
+  margin-top: -3px;
+}
+.footerContent h4 {
+  font-size: 24px;
+  color: #f3924d;
+
+  margin-top: 0px;
+}
+.footerContent h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+.footerContent p{
+  font-size: 16px;
+  color: #ccc;
+  text-align: center;
+  margin-top: 10px;
+}
+.footerContent u{
+  color: #278df3;
+  cursor: pointer;
+}
+.socialLinks {
+  display: flex;
+  gap: 15px;
+margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.socialLinks a {
+  align-content: center;
+  height: 40px;
+  width: 40px;
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease;
+
+}
+
+
+.insta:hover{
+  color: rgb(255, 0, 242);}
+
+  .fb:hover{
+  color: rgb(0, 115, 255);}
+.yt:hover{
+  color: rgb(255, 0, 0);}
+  .li:hover{
+  color: rgb(32, 153, 253);}
+
+
+  @media (max-width: 768px) {
+  .footerContent h1,
+  .footerContent h2,
+  .footerContent h3,
+  .footerContent h4,
+  .footerContent h5 {
+    font-size: 18px;
+  }
+
+  .footerContent p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .bw {
+    width: 150px;
+    height: 60px;
+    margin-top: 20px;
+  }
+
+  .yaticorpLogo {
+    width: 200px;
+    height: 45px;
+    margin-top: -20px;
+  }
+
+  .socialLinks {
+    gap: 10px;
+  }
+
+  .socialLinks a {
+    font-size: 20px;
+    height: 32px;
+    width: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerContent h1,
+  .footerContent h2,
+  .footerContent h3,
+  .footerContent h4,
+  .footerContent h5 {
+    font-size: 16px;
+  }
+
+  .footerContent p {
+    font-size: 13px;
+  }
+
+  .bw {
+    width: 90px;
+    height: 50px;
+  }
+
+  .yaticorpLogo {
+    width: 170px;
+    height: 40px;
+  }
+
+  .socialLinks a {
+    font-size: 18px;
+    height: 28px;
+    width: 28px;
+  }
+}
