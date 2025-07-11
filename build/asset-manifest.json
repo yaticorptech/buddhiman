@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce12d8da.css",
+    "main.js": "/static/js/main.badf2632.js",
+    "static/js/453.c7e08b54.chunk.js": "/static/js/453.c7e08b54.chunk.js",
+    "static/media/img4.jpg": "/static/media/img4.a13eda5096ab9bed7b6d.jpg",
+    "static/media/img1.png": "/static/media/img1.50e5b666f752313d66c0.png",
+    "static/media/img2.png": "/static/media/img2.c6a185595536ecba64bf.png",
+    "static/media/buddhimanLOGOfinal.png": "/static/media/buddhimanLOGOfinal.8415bde38d25267cfbe2.png",
+    "static/media/img3.png": "/static/media/img3.91a7e83dd3790867d8bf.png",
+    "static/media/bw.jpeg": "/static/media/bw.a3eb52b1823447ffa1fa.jpeg",
+    "static/media/yaticorplogo.png": "/static/media/yaticorplogo.bb40de18c1b6b9a6f4bb.png",
+    "static/media/social.png": "/static/media/social.ea854ab10413f43fcc0d.png",
+    "index.html": "/index.html",
+    "main.ce12d8da.css.map": "/static/css/main.ce12d8da.css.map",
+    "main.badf2632.js.map": "/static/js/main.badf2632.js.map",
+    "453.c7e08b54.chunk.js.map": "/static/js/453.c7e08b54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce12d8da.css",
+    "static/js/main.badf2632.js"
+  ]
+}
