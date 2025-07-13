@@ -44,7 +44,7 @@ function Home() {
         {/* Home Section */}
         <section className="home" id="home1">
           <div className="headerContainer">
-            <h2 className="h2">Buddhiman.in</h2>
+            <h2 className="h2">Buddhiman</h2>
             <p className="p1">A Unique Fusion of Culture, Confidence & Creativity.</p>
             <button
               className="whatsapp"
