@@ -2,7 +2,7 @@
 :root {
   --primary-color: #011752;
   --accent-color: gold;
-  --background-gradient: linear-gradient(to top, #ffffff 0%, #278df3 100%);
+  --background-gradient: linear-gradient(to top, #ffffff 0%,#b2d6fb 50%, #278df3 100%);
   --background-color: #fff;
 }
 
@@ -35,14 +35,15 @@ a.menuLink {
   text-align: center;
 }
 .h2 {
+  padding-top: 100px;
   font-family: 'Samkaran', sans-serif;
-  font-size: 4rem;
+  font-size: 7rem;
   color: var(--primary-color);
   animation: fadeIn 1s ease-out;
 }
 .p1 {
   font-size: 1.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0;
   color: #000;
 }
 
@@ -54,6 +55,7 @@ a.menuLink {
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
   padding: 10px 15px;
+  padding-left: 10px;
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -85,17 +87,23 @@ a.menuLink {
 }
 .menuList {
   display: grid;
-  width: 90%;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); /* each item takes up to 380px */
+  max-width: 1200px;             /* limits total grid width */
+  margin: 0 auto;                /* centers the whole grid block */
+  gap: 20px;
+  padding: 10px;                 /* optional */
 }
 
+
+
+
 .menuItem {
-  background: #001221;
+  border: 1px solid;
+  border-color: #278ef3;
+  background: #ffffff;
   display: grid;
   gap: 2px;
-  color: #fff;
+  color: #000;
   overflow: hidden;
   width: 380px;
   height: 430px;
@@ -142,6 +150,7 @@ a.menuLink {
   gap: 8px;
   margin-top: 10px;
   flex-wrap: wrap;
+
 }
 .thumb-image {
   width: 50px;
@@ -150,9 +159,10 @@ a.menuLink {
   border: 2px solid transparent;
   border-radius: 5px;
   cursor: pointer;
+    border-color:#77abf3;
 }
 .thumb-image.selected {
-  border-color: #0055cc;
+  border-color: #03367e;
   box-shadow: 0 0 4px rgba(0, 85, 204, 0.5);
 }
 
