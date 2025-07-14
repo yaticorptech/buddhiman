@@ -113,7 +113,7 @@
 .imageSlider {
   display: flex;
   gap: 20px;
-  animation: scrollSmooth 20s linear infinite;
+  animation: scrollSmooth 60s linear infinite;
   width: max-content;
 }
 
