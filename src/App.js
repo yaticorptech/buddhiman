@@ -11,10 +11,11 @@ import Quiz from './pages/Quiz'; // Import the Quiz page
 import Dance from './pages/Dance';
 import Singing from './pages/Singing';
 import Drawing from './pages/Drawing';
-import FancyDress from './pages/Fancydress';
+import Krishna from './pages/KrishnaJanmastami';
 import Media from './pages/Media'; // Import the Media page
 import ArticlePage from './pages/Article';
 import Ind from './pages/Independence';
+import Ganesha from './pages/Ganesha'
 
 
 
@@ -30,10 +31,11 @@ function App() {
           <Route path="/dance" element={<Dance />} />
           <Route path="/singing" element={<Singing />} />
           <Route path="/drawing" element={<Drawing />} />
-          <Route path="/fancydress" element={<FancyDress />} />
           <Route path="/media" element={<Media />} />
           <Route path="/article/:id" element={<ArticlePage />} />
-          <Route path="/Ind" element={<Ind />} />
+          <Route path="/ind" element={<Ind />} />
+          <Route path="/Krishna" element={<Krishna />} />
+          <Route path="/Ganesha" element={<Ganesha />} />
 
         </Routes>
         <Footer />

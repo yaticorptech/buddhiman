@@ -103,16 +103,17 @@ function Home() {
           </div>
 
           {/* Gallery Section */}
-          <div className="gallery1">
-            <h2>Gallery</h2>
-            <div className="galleryItems1">
-              <div className="imageSlider1">
-                {[...galleryImages, ...galleryImages].map((img, idx) => (
-                  <img key={idx} src={img} alt={`Gallery slide ${idx + 1}`} />
-                ))}
-              </div>
-            </div>
-          </div>
+          
+        <div className="media-gallery">
+  <h2>Gallery</h2>
+  <div className="galleryItems">
+    <div className="imageSlider">
+      {[...galleryImages, ...galleryImages].map((img, idx) => (
+        <img key={idx} src={img} alt={`gallery-${idx}`} />
+      ))}
+    </div>
+  </div>
+</div>
         </section>
 
         {/* Rules Section */}

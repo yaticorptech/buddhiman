@@ -1,0 +1,457 @@
+/* Page Wrapper */
+.Krishna-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: linear-gradient(to top, #ffffff 0%, #b2d6fb 50%, #278df3 100%);
+}
+
+/* Top Section */
+.topbanner {
+  width: 100%;
+  height: 100px;
+}
+
+/* Section Heading */
+.Krishna-heading {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Krishna-heading h1 {
+  font-size: 46px;
+  font-weight: bold;
+  color: #011752;
+}
+
+/* Card Layout */
+.Krishna-card-row {
+  width: 100%;
+  margin-bottom: 60px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Container */
+.Krishna-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Krishna-img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Description Area */
+.Krishna-content {
+  padding: 0 10px;
+}
+
+.Krishna-content h3 {
+  font-size: 24px;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+}
+
+.Krishna-description {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.Krishna-description ul {
+  margin: 10px 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+/* Competitions Section */
+.competitions-wrapper {
+  
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.competitions-wrapper h4 {
+  text-align: center;
+  font-size: 24px;
+  color: #4b0082;
+  margin-bottom: 20px;
+}
+
+/* Competition Cards Grid */
+.competition-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+/* Each Competition Card */
+.competition-card {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  width: 100%;
+  height: max-content;
+}
+
+/* Card Image */
+.competition-card-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Card Content */
+.competition-card-content {
+  padding: 20px;
+}
+
+.competition-card-content h3 {
+  margin-top: 0;
+  color: #222;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.competition-card-content p {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+/* Register Button */
+.competition-card-btn {
+  padding: 10px 20px;
+  background-color: #ffa200;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.competition-card-btn:hover {
+  background-color: #0044cc;
+  color: white;
+}
+
+
+/* ---------------------------- Responsive ---------------------------- */
+
+/* Extra Small: ≤ 480px */
+@media (max-width: 320px) {
+  .Krishna-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 10px;
+}
+    .navbar{
+        max-width: 100%;
+    }
+    .Krishna-image-container{
+        width: 100%;
+        height: 200px;
+    }
+    .Krishna-page{
+        padding: 10px 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Krishna-heading{
+        max-width: fit-content;
+    }
+    .Krishna-heading h1{
+        font-size: 20px;
+    }
+
+.Krishna-card-row{
+    padding: 5px;
+}
+.Krishna-content h3{
+    font-size: 12px;
+}
+.Krishna-description p{
+    font-size: 10px;
+    text-align: left;
+}
+.Krishna-description h4{
+    font-size: 12px;
+}
+.Krishna-description ul{
+    font-size: 10px;
+    padding-left: 11px;
+}
+.Krishna-table-wrapper tr{
+    font-size: 7.5px;
+    padding: 0;
+}
+.Krishna-button{
+    width: fit-content;
+    margin-right: 33%;
+    font-size: 10px;
+    padding:5px;
+}
+}
+@media ((min-width: 321px) and (max-width: 375px)) {
+  .Krishna-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 10px;
+}
+    .navbar{
+        max-width: 100%;
+    }
+    .Krishna-image-container{
+        width: 100%;
+        background-size: cover;
+    }
+    .Krishna-img{
+      border-radius: 15px;
+    }
+    .Krishna-page{
+        padding: 10px 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Krishna-heading{
+        max-width: fit-content;
+    }
+    .Krishna-heading h1{
+        font-size: 20px;
+    }
+
+.Krishna-card-row{
+  gap: 0;
+}
+.Krishna-content h3{
+    font-size: 12px;
+}
+.Krishna-description p{
+    font-size: 10px;
+    text-align: left;
+}
+.Krishna-description h4{
+    font-size: 12px;
+}
+.Krishna-description ul{
+    font-size: 10px;
+    padding-left: 11px;
+}
+.Krishna-table-wrapper tr{
+    font-size: 8px;
+    padding-left: 10px;
+}
+.Krishna-button{
+    width: fit-content;
+    margin-right: 33%;
+    font-size: 10px;
+    padding: 5px;
+}
+}
+
+@media ((min-width: 376px) and (max-width: 480px)) {
+  .Krishna-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 35px;
+}
+    .navbar{
+        max-width: 100%;
+    }
+    .Krishna-image-container{
+        width: 100%;
+        background-size: cover;
+    }
+    .Krishna-img{
+      border-radius: 15px;
+    }
+    .Krishna-page{
+        padding: 10px 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .Krishna-heading{
+        max-width: fit-content;
+    }
+    .Krishna-heading h1{
+        font-size: 20px;
+    }
+
+.Krishna-card-row{
+  gap: 0;
+}
+.Krishna-content h3{
+    font-size: 12px;
+}
+.Krishna-description p{
+    font-size: 10px;
+    text-align: left;
+}
+.Krishna-description h4{
+    font-size: 12px;
+}
+.Krishna-description ul{
+    font-size: 10px;
+    padding-left: 11px;
+}
+.Krishna-table-wrapper tr{
+    font-size: 8px;
+    padding: 0;
+}
+.Krishna-button{
+    width: fit-content;
+    margin-right: 35%;
+    font-size: 10px;
+    padding: 5px;
+}
+}
+
+/* Small Devices: 481px – 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .Krishna-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 55px;
+}
+  .Krishna-heading h1 {
+    font-size: 36px;
+  }
+
+  .Krishna-card-row {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .Krishna-content {
+    align-items: center;
+  }
+
+  .Krishna-description p,
+  .Krishna-description ul {
+    font-size: 15px;
+  }
+
+  .Krishna-button {
+    align-self: center;
+    width: fit-content;
+  }
+}
+
+/* Tablets: 768px – 1024px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .Krishna-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 50px;
+}
+  .Krishna-heading h1 {
+    font-size: 40px;
+  }
+
+  .Krishna-card-row {
+    flex-direction: row;
+    gap: 24px;
+    padding: 30px;
+  }
+
+  .Krishna-content h3 {
+    font-size: 22px;
+  }
+
+  .Krishna-description p,
+  .Krishna-description ul {
+    font-size: 16px;
+  }
+
+  .Krishna-button {
+    width: fit-content;
+    margin-right: 230px;
+  }
+}
+
+/* Laptops: 1025px – 1440px */
+@media (min-width: 1024px) and (max-width: 14439x) {
+    .Krishna-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+    padding-left: 170px;
+}
+  .Krishna-heading h1 {
+    font-size: 44px;
+  }
+
+  .Krishna-card-row {
+    gap: 30px;
+    padding: 36px;
+  }
+
+  .Krishna-content h3 {
+    font-size: 24px;
+  }
+
+  .Krishna-description p,
+  .Krishna-description ul {
+    font-size: 17px;
+  }
+
+  .Krishna-button {
+    width: fit-content;
+    margin-right: 43%;
+  }
+}
+
+/* Desktop XL: > 1440px
+@media (min-width: 1441px) {
+  .Krishna-heading h1 {
+    font-size: 48px;
+  }
+
+  .Krishna-card-row {
+    gap: 40px;
+    padding: 40px;
+  }
+
+  .Krishna-content h3 {
+    font-size: 26px;
+  }
+
+  .Krishna-description p,
+  .Krishna-description ul {
+    font-size: 18px;
+  }
+
+  .Krishna-button {
+    width: fit-content;
+  }
+}
+ */
