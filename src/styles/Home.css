@@ -2,8 +2,10 @@
 :root {
   --primary-color: #011752;
   --accent-color: gold;
-  --background-gradient: linear-gradient(to top, #ffffff 0%,#b2d6fb 50%, #278df3 100%);
+  --background-gradient: linear-gradient(to top, #ffffff 10%,#b2d6fb 50%, #278df3 100%);
+    --background-gradient1:linear-gradient(to bottom, rgb(255, 106, 0), rgb(255, 255, 255), rgb(0, 161, 38)) ;
   --background-color: #fff;
+  --gradient: linear-gradient(to top, #ff6a00 0%,#ffffff 50%, #008600 100%);
 }
 
 /* Reset & Base */
@@ -27,14 +29,26 @@ a.menuLink {
   align-items: center;
   justify-content: center;
   background: var(--background-gradient);
-  height: 30vh;
+  height: 40vh;
   position: relative;
 }
+/*
+.gradient-text {
+  background: linear-gradient(90deg, #ff7300, #ffffff,#011752 50%,#ffffff,#008c05); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+    padding-top: 100px;
+  font-family: 'Samkaran', sans-serif;
+  font-size: 7rem;
+  animation: fadeIn 1s ease-out;
+} */
 
 .headerContainer {
   text-align: center;
 }
-.h2 {
+.gradient-text {
   padding-top: 100px;
   font-family: 'Samkaran', sans-serif;
   font-size: 7rem;
@@ -98,15 +112,17 @@ a.menuLink {
 
 
 .menuItem {
-  border: 1px solid;
+  border: 2px solid;
+  /* border-image: linear-gradient(to bottom, rgb(255, 106, 0), rgb(255, 255, 255), rgb(0, 161, 38)) 1; */
   border-color: #278ef3;
+  border-radius: 10px;
   background: #ffffff;
   display: grid;
   gap: 2px;
   color: #000;
   overflow: hidden;
   width: 380px;
-  height: 430px;
+  height: 500px;
   position: relative;
   justify-items: center;
   padding: 0 10px 10px;
@@ -138,7 +154,7 @@ a.menuLink {
   padding: 15px;
   font-size: 13px;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 0;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
