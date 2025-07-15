@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/ind.css';
 import Image1 from '../assets/Fancydress/download.jpeg';
+import Image2 from '../assets/Fancydress/ganesha.png'
 
 const Ind = [
   {
@@ -94,21 +95,9 @@ const Ind = [
 
         image: Image1,
         link: 'https://wame.pro/art-registration'
-      },
-      {
-        title: 'Singing Competition',
-        description: 'Participate in devotional and classical singing categories.',
-        image: Image1,
-        link: 'https://wame.pro/singing-registration'
-      },
-      {
-        title: 'Dancing Competition',
-        description: 'Perform a ind-themed dance to celebrate Janmastami.',
-        image: Image1,
-        link: 'https://wame.pro/dancing-registration'
       }
     ],
-    img: Image1,
+    img: Image2,
     link: 'https://wame.pro/resetpassword'
   }
 ];
