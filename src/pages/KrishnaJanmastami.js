@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/KrishnaJanmastami.css';
 import Image1 from '../assets/Fancydress/download.jpeg';
+import Image2 from '../assets/Fancydress/Untitled design (12).png';
 
 const Krish = [
   {
@@ -24,25 +25,79 @@ const Krish = [
     ),
     Competitions: [
       {
-        title: 'Art Competition',
-        description: 'Showcase your artistic skills using only pencil sketches.',
-        image: Image1,
-        link: 'https://wame.pro/art-registration'
-      },
-      {
-        title: 'Singing Competition',
-        description: 'Participate in devotional and classical singing categories.',
-        image: Image1,
-        link: 'https://wame.pro/singing-registration'
-      },
-      {
-        title: 'Dancing Competition',
-        description: 'Perform a Krishna-themed dance to celebrate Janmastami.',
-        image: Image1,
-        link: 'https://wame.pro/dancing-registration'
-      }
+  title: 'Muddu Krishna Costume Contest 2025',
+  description: (
+    <>
+      <p>
+        On account of Krishna Janmashtami, <strong>budhiman.com</strong> brings to you <strong>Muddu Krishna Costume Contest</strong>, to be organized between <strong>July 20, 2025</strong> to <strong>August 20, 2025</strong>.
+      </p>
+      <ul>
+        <li>The last date to send your entries is on August 20, 2025. The final results will be announced on August 25, 2025.</li>
+        <li>ONLY ONE entry per kid. Multiple or duplicate entries will NOT be entertained and thereby disqualified.</li>
+        <li>The photos sent by participants will be reviewed by the selection panel. ONLY the best quality photos will be forwarded to the jury panel, whose decision will be final.</li>
+        <li>Children up to 10 years of age can participate in the contest. They are expected to dress as Lord Krishna ONLY.</li>
+        <li>The age category is divided as follows: <strong>1–5 years</strong> and <strong>6–10 years</strong>.</li>
+        <li>Application of watermarks, screenshots, pixelated/blurry images, and edited images are STRICTLY prohibited. Such images/photos will NOT be considered.</li>
+        <li>The images should be in .jpg/.JPEG or .png format with file size not more than 4 MB.</li>
+        <li>Top 56 photos will be posted on social media pages and our website budhiman.com</li>
+        <li>Winners will be awarded cash prize along with an attractive memento and a certificate.</li>
+      </ul>
+      <p><strong>NOTE:</strong> A minimal entry fee will be charged.</p>
+    </>
+  ),
+  prizesheading: '🏆 Prize Details',
+  Prizes: (
+    <>
+      <div className="ind-table-wrapper">
+        <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px' }}>
+          <thead>
+            <tr style={{ backgroundColor: '#f2f2f2' }}>
+              <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>AGE</th>
+              <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>PLACE</th>
+              <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>CASH PRIZE</th>
+              <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>MEMENTO</th>
+              <th style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>CERTIFICATE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>1–5 Years</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>SECOND</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹5,000/-</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+            </tr>
+
+            <tr>
+              <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>6–10 Years</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+            </tr>
+            <tr>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>SECOND</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹5,000/-</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+              <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </>
+  ),
+  image: Image1,
+  link: 'https://wame.pro/fancydress-registration'
+}
+
     ],
-    img: Image1,
+    img: Image2,
     link: 'https://wame.pro/resetpassword'
   }
 ];
@@ -54,7 +109,7 @@ function Media() {
     <>
       <Navbar />
       <main className="Krishna-page">
-        <div className='topbanner'></div>
+        <div className="topbanner"></div>
 
         {Krish.map((item) => (
           <div className="Krishna-card-row" key={item.id}>
@@ -71,7 +126,6 @@ function Media() {
               <div className="Krishna-description">{item.description}</div>
             </div>
 
-            {/* Competitions Section */}
             <div className="competitions-wrapper">
               <h4>Competitions</h4>
               <div className="competition-cards">
@@ -88,6 +142,12 @@ function Media() {
                         Register
                       </button>
                     </div>
+                    {comp.Prizes && (
+                      <div className="prize">
+                        <h5>{comp.prizesheading}</h5>
+                        {comp.Prizes}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>

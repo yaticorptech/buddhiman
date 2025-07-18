@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WhatsAppFloatingButton from './components/WhatsAppFloatingButton';
 
 import Home from './pages/Home';
 import Register from './pages/Register'; // Import the Register page
@@ -24,6 +27,8 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
+        <WhatsAppFloatingButton />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />

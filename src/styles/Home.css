@@ -73,14 +73,22 @@ a.menuLink {
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s;
+
 }
 .whatsapp:hover {
   background-color: var(--primary-color);
   color: #fff;
 }
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
 .whatsapp-logo {
   width: 24px;
   margin-right: 8px;
+     animation: pulse 2s infinite;
 }
 .register {
   font-weight: bold;

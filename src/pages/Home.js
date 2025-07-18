@@ -15,6 +15,7 @@ import '../styles/Home.css';
 import { MenuList } from '../helpers/MenuList';
 import MenuItemCard from '../components/MenuItemCard';
 
+
 const galleryImages = [img1, img2, img3, img4, img5, img6, img7, img8];
 
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
   return (
     <>
       <main>
+      
         {/* Home Section */}
         <section className="home" id="home1">
           <div className="headerContainer">
@@ -59,7 +61,7 @@ function Home() {
 
         {/* Menu Section */}
         <section className="menu reveal" id="menu1">
-          <h1 className="menuTitle">Categories</h1>
+          <h1 className="menuTitle">Events</h1>
           <div className="menuList">
             {visibleMenu.map((menuItem, index) => (
               <MenuItemCard
@@ -97,8 +99,9 @@ function Home() {
           <div className="aboutBottom">
             <h1>About Us</h1>
             <p>
-              Buddhiman.in is an online platform created to celebrate intelligence,
-              creativity, and talent through healthy and engaging competitions.
+              Buddhiman.in is a dynamic online platform dedicated to recognizing and nurturing intelligence, creativity, and talent among individuals of all ages.
+              The platform offers a wide range of thoughtfully curated competitions. It encourages critical thinking, collaboration, and confidence-building. It aims to foster a culture of curiosity and continuous learning by bringing together like-minded individuals passionate about personal excellence.
+ Buddhiman.in not only celebrates achievement but also motivates participants to push their limits and discover their full potential.
             </p>
           </div>
 
@@ -118,8 +121,8 @@ function Home() {
 
         {/* Rules Section */}
         <section className="rules-reveal">
-          <h1>Rules & Regulations for Registration</h1>
-          <h4>Competitions will be held online—dates announced soon!</h4>
+          {/* <h1>Rules & Regulations for Registration</h1>
+          <h4>Competitions will be held online—dates announced soon!</h4> */}
         </section>
       </main>
     </>
