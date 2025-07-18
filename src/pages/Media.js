@@ -7,24 +7,27 @@ import img1 from '../assets/gallery/img1.png';
 import img2 from '../assets/gallery/img2.png';
 import img3 from '../assets/gallery/img3.png';
 import img4 from '../assets/gallery/img4.jpg';
+import img5 from '../assets/gallery/Army.jpg';
+import img6 from '../assets/gallery/Army2.jpg';
+import img7 from '../assets/gallery/Army3.jpg';
+import img8 from '../assets/gallery/Army4.jpg';
+import img9 from '../assets/gallery/Army5.jpg';
+import img10 from '../assets/gallery/Army6.jpg';
+import img11 from '../assets/gallery/Army7.jpg';
+import img12 from '../assets/gallery/Army8.jpg';
+import img13 from '../assets/gallery/Army9.jpg';
 
-const galleryImagesMedia = [img1, img2, img3, img4];
+
+
+
+const galleryImagesMedia = [img1, img2, img3, img4,img5, img6, img7, img8,img9, img10, img11, img12, img13];
 
 const articles = [
   {
     id: 1,
     title: 'SHRAMA YEVA JAYATE',
     description: (
-      <p>
-        The “SHRAMA YEVA JAYATE” event, held in Mangalore on January 29, 2023 aimed to honor and celebrate the dignity of labor like cemetery workers, linemen, bus conductors, city drivers, nurses, postmortem assistants, and other essential city workers.
-        <br />
-        <ul>
-          <li>To recognize and appreciate the contribution of workers – from daily wage laborers to skilled professionals – who play a crucial role in building society and the economy.</li>
-          <li>To promote the value of hard work and self-reliance among students, youth, and the public.</li>
-          <li>To spread awareness about labor rights, safety, and welfare measures, encouraging a culture of respect towards all forms of labor.</li>
-          <li>To inspire social responsibility among communities by highlighting the importance of inclusive growth and equitable opportunities for all.</li>
-          <li>To bridge the gap between different sections of society by fostering empathy and mutual respect through engagement and interaction.</li>
-        </ul>
+      <p>The “Shrama Yeva Jayate” event, held in Mangalore on January 29, 2023, celebrated the dignity of labor by honoring essential workers like cemetery staff, linemen, bus conductors, and nurses. The event aimed to recognize their vital contributions, promote the value of hard work, raise awareness about labor rights and safety, inspire social responsibility, and foster respect and unity across all sections of society.
       </p>
     ),
     img: img4
@@ -33,21 +36,7 @@ const articles = [
     id: 2,
     title: 'AMAR JAWAN',
     description:(
-      <p><p1><strong>Motive Behind the Event:</strong></p1><br/>
-       <h><strong>To honour Martyrs</strong></h> 
-        <br /> 
-        <ul>
-          <li>The primary goal was to pay tribute to the brave soldiers who sacrificed their lives for the nation. It aimed to instill patriotism and respect for the armed forces among the citizens.</li></ul>
-          <h><strong>Spread Awareness About National Security:</strong></h>
-         <ul> <li>The event was designed to educate youth and citizens about the importance of national defense, the roles of the armed forces, and the value of peace and sacrifice.</li></ul>
-        <h><strong>Inspire Youth Through Patriotism:</strong></h>
-         <ul> <li>To spread awareness about labor rights, safety, and welfare measures, encouraging a culture of respect towards all forms of labor.</li></ul>
-         <h><strong>Community Engagement Through Tribute:</strong></h>
-         <ul> <li>To inspire social responsibility among communities by highlighting the importance of inclusive growth and equitable opportunities for all.</li></ul>
-        <h><strong>Promote Civic Responsibility:</strong></h>
-        <ul> <li>To bridge the gap between different sections of society by fostering empathy and mutual respect through engagement and interaction.</li>
-        </ul>
-      </p>
+      <p>The event aimed to honor martyrs and instill patriotism by educating citizens about national security and the sacrifices of the armed forces. It sought to inspire youth through stories of bravery, promote civic responsibility, and foster community unity and pride in the nation.</p>
     ),
     img: img2
   }

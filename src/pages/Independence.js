@@ -2,8 +2,10 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/ind.css';
-import Image1 from '../assets/Fancydress/download.jpeg';
-import Image2 from '../assets/Fancydress/ganesha.png'
+import Image1 from '../assets/Fancydress/ind.png';
+import Image2 from '../assets/Fancydress/ind2.png'
+
+
 
 const Ind = [
   {
@@ -137,7 +139,7 @@ function Media() {
                       <p>{comp.description}</p>
                       <button
                         className="competition-card-btn"
-                        onClick={() => window.open(comp.link, '_blank')}
+                        onClick={() => window.open('https://wa.me/918951193682')}
                       >
                         Register
                       </button>

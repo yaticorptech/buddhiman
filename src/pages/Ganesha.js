@@ -2,8 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/Ganesha.css';
-import Image1 from '../assets/Fancydress/download.jpeg';
-
+import Image1 from '../assets/Fancydress/Ganesh5.png';
+import Image2 from '../assets/Fancydress/Ganesh2.png';
+import Image3 from '../assets/Fancydress/Ganesh4.png';
 const Ganesha = [
   {
 
@@ -92,7 +93,7 @@ const Ganesha = [
     </table>
     </div></>),
 
-        image: Image1,
+        image: Image3,
         link: 'https://wame.pro/art-registration'
       },
      {
@@ -155,7 +156,7 @@ const Ganesha = [
       </table>
     </div>
   ),
-  image: Image1,
+  image: Image2,
   link: 'https://wame.pro/devotional-singing-registration'
 }
 
@@ -200,7 +201,7 @@ function Media() {
                       <p>{comp.description}</p>
                       <button
                         className="competition-card-btn"
-                        onClick={() => window.open(comp.link, '_blank')}
+                        onClick={() => window.open('https://wa.me/918951193682')}
                       >
                         Register
                       </button>

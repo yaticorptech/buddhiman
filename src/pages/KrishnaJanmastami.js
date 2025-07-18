@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/KrishnaJanmastami.css';
-import Image1 from '../assets/Fancydress/download.jpeg';
-import Image2 from '../assets/Fancydress/Untitled design (12).png';
+import Image1 from '../assets/Fancydress/Muddukrishna.png';
+import Image2 from '../assets/Fancydress/littlekrishna.png'
 
 const Krish = [
   {
@@ -92,12 +92,12 @@ const Krish = [
       </div>
     </>
   ),
-  image: Image1,
+  image: Image2,
   link: 'https://wame.pro/fancydress-registration'
 }
 
     ],
-    img: Image2,
+    img: Image1,
     link: 'https://wame.pro/resetpassword'
   }
 ];
@@ -137,7 +137,7 @@ function Media() {
                       <p>{comp.description}</p>
                       <button
                         className="competition-card-btn"
-                        onClick={() => window.open(comp.link, '_blank')}
+                        onClick={() => window.open('https://wa.me/918951193682')}
                       >
                         Register
                       </button>

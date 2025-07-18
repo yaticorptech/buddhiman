@@ -51,14 +51,14 @@ export default function Navbar() {
         {isOnHomePage ? (
           <>
             <a href="#home1" onClick={closeMenu}>Home</a>
+            <a href="#menu1" onClick={closeMenu}>Events</a>
             <a href="#about1" onClick={closeMenu}>About</a>
-            <a href="#menu1" onClick={closeMenu}>Categories</a>
             <a href="#Footer1" onClick={closeMenu}>Contact</a>
           </>
         ) : (
           <Link to="/" onClick={closeMenu}>Home</Link>
         )}
-        <Link to="/media" onClick={closeMenu}>Media</Link>
+        {/* <Link to="/media" onClick={closeMenu}>Media</Link> */}
       </div>
     </div>
   );
