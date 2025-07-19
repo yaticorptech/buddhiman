@@ -478,8 +478,16 @@ text-align: right ;
   .category-title {
     font-size: 1.2rem;
   }
+  .headdinng img{
+  width: 30px;
+  height: 40px;
+}
 }
 @media (min-width: 376px) and (max-width: 480px) {
+  .headdinng img{
+  width: 50px;
+  height: 60px;
+}
   .gradient-text {
     font-size: 2.5rem;
   }
@@ -513,6 +521,10 @@ text-align: right ;
 
 /* ========== Responsive for Small Devices (Phones & Small Tablets < 768px) ========== */
 @media (min-width: 481px) and (max-width: 768px)  {
+  .headdinng img{
+  width: 40px;
+  height: 50px;
+}
   .gradient-text {
     font-size: 3rem;
   }
@@ -543,6 +555,10 @@ text-align: right ;
 
 /* ========== Medium Devices (Tablets & Small Laptops: 768px - 1024px) ========== */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .headdinng img{
+  width: 60px;
+  height: 70px;
+}
   .home{
     height: 50vh;
   }
@@ -571,6 +587,10 @@ text-align: right ;
 
 /* ========== Large Devices (Desktops 1024px - 1440px) ========== */
 @media (min-width: 1025px) and (max-width: 1440px) {
+  .headdinng img{
+  width: 70px;
+  height: 80px;
+}
   .gradient-text {
     font-size: 5rem;
   }
