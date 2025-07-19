@@ -167,14 +167,18 @@
     gap:0;
   }
 } */
-@media (max-width: 374px) {
+@media (max-width: 375px) {
     .article-card-row{
     gap:0;
   }
   .media-heading h1 {
     font-size: 24px;
   }
-
+  .media-gallery{
+    margin-top: 0px;
+    width: 90%;
+    height: 300px;
+  }
   .article-content h3 {
     font-size: 17px;
   }
@@ -186,6 +190,7 @@
 
   .media-gallery h2 {
     font-size: 22px;
+    margin-bottom: 15px;
   }
 
   .galleryItems {
@@ -197,7 +202,7 @@
     height: 200px;
   }
 }
-@media (min-width: 375px) and (max-width: 480px) {
+@media (min-width: 376px) and (max-width: 480px) {
     .article-card-row{
     gap:0;
   }
