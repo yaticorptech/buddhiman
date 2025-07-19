@@ -9,7 +9,7 @@
 }
 
 /* Top Section */
-.topbanner {
+.topbanner1 {
   width: 100%;
   height: 100px;
 }
@@ -80,7 +80,7 @@
 }
 
 /* Competitions Section */
-.competitions-wrapper {
+.competitions-wrapper1 {
   
   margin-top: 40px;
   padding: 20px;
@@ -89,7 +89,7 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.competitions-wrapper h4 {
+.competitions-wrapper1 h4 {
   text-align: center;
   font-size: 24px;
   color: #4b0082;
@@ -97,14 +97,14 @@
 }
 
 /* Competition Cards Grid */
-.competition-cards {
+.competition-cards1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
 }
 
 /* Each Competition Card */
-.competition-card {
+.competition-card1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #ffffff;
@@ -117,12 +117,12 @@
     align-items: center;
 }
 
-.prize{
+.prize1{
     justify-content: center;
     text-align: center;
 }
 /* Card Image */
-.competition-card-img {
+.competition-card-img1 {
   width: 100%;
   height: -webkit-fill-available;
   object-fit: cover;
@@ -130,7 +130,7 @@
 }
 
 /* Card Content */
-.competition-card-content {
+.competition-card-content1 {
     justify-content: center;
   padding: 20px;
 }
@@ -138,22 +138,22 @@
     font-size: 20px;
 }
 
-.competition-card-content h3 {
+.competition-card-content1 h3 {
   margin-top: 0;
   color: #222;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.competition-card-content p {
+.competition-card-content1 p {
   color: #444;
   font-size: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   line-height: 1.5;
 }
 
 /* Register Button */
-.competition-card-btn {
+.competition-card-btn1 {
   padding: 10px 20px;
   background-color: #ffa200;
   color: #000;
@@ -164,7 +164,7 @@
   transition: background-color 0.3s ease;
 }
 
-.competition-card-btn:hover {
+.competition-card-btn1:hover {
   background-color: #0044cc;
   color: white;
 }
@@ -174,7 +174,7 @@
 
 /* Extra Small: ≤ 480px */
 @media (max-width: 320px) {
-  .competition-card{
+  .competition-card1{
     display: flex;
     flex-direction: column;
   }
@@ -184,7 +184,7 @@
 .Ganesha-img{
   height: 200px;
 }
-  .competition-card-content{
+  .competition-card-content1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,10 +193,10 @@
     overflow-x: auto;
     width: 100%;
 }
-.competition-card-content p{
+.competition-card-content1 p{
   font-size: 10px;
 }
-.competition-card-content h3{
+.competition-card-content1 h3{
   font-size: 15px ;
 }
     .navbar{
@@ -267,7 +267,7 @@
         display: grid;
         justify-items: center;
 }
-.competition-card-content{
+.competition-card-content1{
           display: flex;
         flex-direction: column;
         align-items: center;
@@ -278,7 +278,7 @@
     .Ganesha-content h3 {
         font-size: 16px;
     }
-.competition-card{
+.competition-card1{
       display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -311,7 +311,7 @@
 .Ganesha-card-row{
   gap: 0;
 }
-.competition-card-content p {
+.competition-card-content1 p {
     color: #444;
     font-size: 12px;
     margin-bottom: 16px;
@@ -350,7 +350,7 @@
         display: grid;
         justify-items: center;
 }
-.competition-card-content{
+.competition-card-content1{
           display: flex;
         flex-direction: column;
         align-items: center;
@@ -361,7 +361,7 @@
     .Ganesha-content h3 {
         font-size: 16px;
     }
-.competition-card{
+.competition-card1{
       display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
@@ -394,7 +394,7 @@
 .Ganesha-card-row{
   gap: 0;
 }
-.competition-card-content p {
+.competition-card-content1 p {
     color: #444;
     font-size: 12px;
     margin-bottom: 16px;
@@ -424,7 +424,7 @@
 }
 /* Small Devices: 481px – 767px */
 @media (min-width: 481px) and (max-width: 767px) {
-  .competition-card {
+  .competition-card1 {
         display: grid
 ;
         grid-template-columns: repeat(1, 1fr);

@@ -1,28 +1,22 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import '../styles/ind.css';
+import '../styles/Ganesha.css';
 import Image1 from '../assets/Fancydress/ind.png';
 import Image2 from '../assets/Fancydress/ind2.png'
 
 
 
-const Ind = [
+const Ganesha = [
   {
     id: 1,
-    title: 'Vinayaka Vandana 2025',
+    title: '  Independence Day – ‘Vande Bharata Maatram’ Patriotic Singing Competition 2025',
     description: (
       <>
-        <p>
-          On account of Ganesha Chathurti, budhiman.com presents Vinayaka Vandana 2025 – Pencil Sketching and inding Competition, between August 15, 2025 to September 10, 2025.
-        </p>
-        <ul>
-          <li>The last date to submit your entry is September 10, 2025. The final results will be announced on September 15, 2025.</li>
-          <li>The competition will be organized for three age categories – 5–18 years, 19–30 years, and 31 and above.</li>
-          <li>The participants are requested to use PENCILS ONLY (charcoal and graphite pencils). Sketches using colored pencils, gel pen, ball-point pen etc. will be disqualified.</li>
-          <li>Participants should upload the scanned copy of the sketch. ONLY clear copies will be forwarded by the selection panel to the jury. Jury decision is final. Best sketches will be uploaded on our social media pages.</li>
-          <li>Cash prize, an attractive memento, and a certificate await the winners.</li>
-        </ul>
+
+       
+      
+        <p>On account of Independence Day 2025, Budhiman presents Vande Bharata Maataram – a patriotic singing competition scheduled to be held from July 20, 2025, to August 20, 2025. The last date to send your entries is August 20, 2025, and the final results will be announced on August 25, 2025. This competition is open to all age groups. However, multiple or duplicate entries will not be entertained and will result in disqualification. Each performance should be a maximum of 3 minutes in duration. The use of musical instruments is not allowed, although a shruti box may be used. Winners will receive a cash prize along with an attractive memento and a certificate.</p>
           
       </>
     ),
@@ -30,15 +24,30 @@ const Ind = [
       {
         title: 'Independence Day Online Quiz Competition',
         description:(
-        <>
-        <p>Celebrate India’s journey of courage, unity, and resilience by participating in our specially curated Independence Day Quiz. Dive into questions about our freedom fighters, national symbols, historical milestones, and constitutional values — and put your knowledge to the test in a fun and rewarding way.</p>
+   <>
+        <p>
+      Vande Bharata Maataram – 2025
+Patriotic Singing Competition by budhiman!
+        </p>
+        <p>🗓 Dates: July 20 – August 20, 2025
+📩 Last Date: August 20, 2025 | 🏆 Results: August 25, 2025
+ <br/>
+</p><p>
+<strong>Details:
+</strong>
+</p>
         <ul>
-<li>Theme: Independence, Indian History, National Identity & Constitution</li>
-	
-<li>Quiz Date: August 15, 2025</li></ul></>),  
+          <li>Open to all age groups</li>
+          <li>One entry per participant only</li>
+          <li>Max duration: 3 minutes</li>
+          <li>No instruments allowed; shruti box permitted</li>
+          <li>Winners get cash prize, memento & certificate</li>
+        </ul>
+          
+      </>),  
         prizesheading: '🏆 Prize Details',
         Prizes:(<>
-     <div className="ind-table-wrapper">
+     <div className="Ganesha-table-wrapper">
     <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px' }}>
       <thead>
         <tr style={{ backgroundColor: '#f2f2f2' }}>
@@ -109,42 +118,42 @@ function Media() {
 
   return (
     <>
-      <main className="ind-page">
-        <div className='topbanner'></div>
+      <main className="Ganesha-page">
+        <div className='topbanner1'></div>
 
-        {Ind.map((item) => (
-          <div className="ind-card-row" key={item.id}>
-            <div className="ind-image-container">
-              <img src={item.img} alt={item.title} className="ind-img" />
+        {Ganesha.map((item) => (
+          <div className="Ganesha-card-row" key={item.id}>
+            <div className="Ganesha-image-container">
+              <img src={item.img} alt={item.title} className="Ganesha-img" />
             </div>
 
-            <div className="ind-heading">
+            <div className="Ganesha-heading">
               <h1>INDEPENDENCE DAY</h1>
             </div>
 
-            <div className="ind-content">
+            <div className="Ganesha-content">
               <h3>{item.title}</h3>
-              <div className="ind-description">{item.description}</div>
+              <div className="Ganesha-description">{item.description}</div>
             </div>
 
             {/* Competitions Section */}
-            <div className="competitions-wrapper">
+            <div className="competitions-wrapper1">
               <h4>Competitions</h4>
-              <div className="competition-cards">
+              <div className="competition-cards1">
                 {item.Competitions.map((comp, index) => (
-                  <div key={index} className="competition-card">
-                    <img src={comp.image} alt={comp.title} className="competition-card-img" />
-                    <div className="competition-card-content">
+                  <div key={index} className="competition-card1">
+                    <img src={comp.image} alt={comp.title} className="competition-card-img1" />
+                    <div className="competition-card-content1">
                       <h3>{comp.title}</h3>
                       <p>{comp.description}</p>
                       <button
-                        className="competition-card-btn"
+                        className="competition-card-btn1"
                         onClick={() => window.open('https://wa.me/918951193682')}
                       >
                         Register
                       </button>
                     </div>
-                    <div className='prize'>
+                    <div className='prize1'>
                       <h5>{comp.prizesheading}</h5>
                       {comp.Prizes}
                     </div>

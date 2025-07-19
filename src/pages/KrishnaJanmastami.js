@@ -1,26 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import '../styles/KrishnaJanmastami.css';
+import '../styles/Ganesha.css';
 import Image1 from '../assets/Fancydress/Muddukrishna.png';
 import Image2 from '../assets/Fancydress/littlekrishna.png'
 
 const Krish = [
   {
     id: 1,
-    title: 'Vinayaka Vandana 2025',
+    title: 'Muddu Krishna Costume Contest 2025',
     description: (
       <>
-        <p>
-          On account of Ganesha Chathurti, budhiman.com presents Vinayaka Vandana 2025 – Pencil Sketching and Krishnaing Competition, between August 15, 2025 to September 10, 2025.
-        </p>
-        <ul>
-          <li>The last date to submit your entry is September 10, 2025. The final results will be announced on September 15, 2025.</li>
-          <li>The competition will be organized for three age categories – 5–18 years, 19–30 years, and 31 and above.</li>
-          <li>The participants are requested to use PENCILS ONLY (charcoal and graphite pencils). Sketches using colored pencils, gel pen, ball-point pen etc. will be disqualified.</li>
-          <li>Participants should upload the scanned copy of the sketch. ONLY clear copies will be forwarded by the selection panel to the jury. Jury decision is final. Best sketches will be uploaded on our social media pages.</li>
-          <li>Cash prize, an attractive memento, and a certificate await the winners.</li>
-        </ul>
+        <p>Budhiman presents the Muddu Krishna Costume Contest on the occasion of Krishna Janmashtami, running from July 20 to August 20, 2025. Children up to 10 years can participate by dressing as Lord Krishna, with age categories of 1–5 and 6–10 years. Only one entry per child is allowed. The last date for submission is August 20, and results will be announced on August 25.
+Photos must be high-quality, unedited, and in .jpg/.JPEG or .png format (max 4 MB). Watermarked, blurry, or duplicate entries will be disqualified. The top 56 entries will be featured on Budhiman and social media. Winners will receive a cash prize, memento, and certificate.</p>
+       
       </>
     ),
     Competitions: [
@@ -28,19 +21,22 @@ const Krish = [
   title: 'Muddu Krishna Costume Contest 2025',
   description: (
     <>
-      <p>
-        On account of Krishna Janmashtami, <strong>budhiman.com</strong> brings to you <strong>Muddu Krishna Costume Contest</strong>, to be organized between <strong>July 20, 2025</strong> to <strong>August 20, 2025</strong>.
+      <p>Muddu Krishna Costume Contest
+Celebrate Krishna Janmashtami with budhiman.com!
       </p>
+      <p>🗓 When: July 20 – August 20, 2025 <br/>
+📩 Entry Deadline: August 20, 2025 | 🏆 Results: August 25, 2025
+</p>
+<p>Rules:
+</p>
       <ul>
-        <li>The last date to send your entries is on August 20, 2025. The final results will be announced on August 25, 2025.</li>
-        <li>ONLY ONE entry per kid. Multiple or duplicate entries will NOT be entertained and thereby disqualified.</li>
-        <li>The photos sent by participants will be reviewed by the selection panel. ONLY the best quality photos will be forwarded to the jury panel, whose decision will be final.</li>
-        <li>Children up to 10 years of age can participate in the contest. They are expected to dress as Lord Krishna ONLY.</li>
-        <li>The age category is divided as follows: <strong>1–5 years</strong> and <strong>6–10 years</strong>.</li>
-        <li>Application of watermarks, screenshots, pixelated/blurry images, and edited images are STRICTLY prohibited. Such images/photos will NOT be considered.</li>
-        <li>The images should be in .jpg/.JPEG or .png format with file size not more than 4 MB.</li>
-        <li>Top 56 photos will be posted on social media pages and our website budhiman.com</li>
-        <li>Winners will be awarded cash prize along with an attractive memento and a certificate.</li>
+        <li>One entry per child (up to 10 yrs), dressed as Lord Krishna only</li>
+        <li>Age groups: 1–5 yrs & 6–10 yrs</li>
+        <li>No edits, watermarks, blurs, or screenshots</li>
+        <li>Only clear, high-quality photos in .jpg/.jpeg/.png (max 4MB)</li>
+        <li>Top photos reviewed by panel; jury decision is final</li>
+        <li>Top 56 entries featured online</li>
+        <li>Winners get cash prize, memento & certificate</li>
       </ul>
       <p><strong>NOTE:</strong> A minimal entry fee will be charged.</p>
     </>
@@ -48,7 +44,7 @@ const Krish = [
   prizesheading: '🏆 Prize Details',
   Prizes: (
     <>
-      <div className="ind-table-wrapper">
+      <div className="Ganesha-table-wrapper">
         <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px' }}>
           <thead>
             <tr style={{ backgroundColor: '#f2f2f2' }}>
@@ -108,42 +104,42 @@ function Media() {
   return (
     <>
       <Navbar />
-      <main className="Krishna-page">
-        <div className="topbanner"></div>
+      <main className="Ganesha-page">
+        <div className="topbanner1"></div>
 
         {Krish.map((item) => (
-          <div className="Krishna-card-row" key={item.id}>
-            <div className="Krishna-image-container">
-              <img src={item.img} alt={item.title} className="Krishna-img" />
+          <div className="Ganesha-card-row" key={item.id}>
+            <div className="Ganesha-image-container">
+              <img src={item.img} alt={item.title} className="Ganesha-img" />
             </div>
 
-            <div className="Krishna-heading">
+            <div className="Ganesha-heading">
               <h1>KRISHNA JANMASTAMI</h1>
             </div>
 
-            <div className="Krishna-content">
+            <div className="Ganesha-content">
               <h3>{item.title}</h3>
-              <div className="Krishna-description">{item.description}</div>
+              <div className="Ganesha-description">{item.description}</div>
             </div>
 
-            <div className="competitions-wrapper">
+            <div className="competitions-wrapper1">
               <h4>Competitions</h4>
-              <div className="competition-cards">
+              <div className="competition-cards1">
                 {item.Competitions.map((comp, index) => (
-                  <div key={index} className="competition-card">
-                    <img src={comp.image} alt={comp.title} className="competition-card-img" />
-                    <div className="competition-card-content">
+                  <div key={index} className="competition-card1">
+                    <img src={comp.image} alt={comp.title} className="competition-card-img1" />
+                    <div className="competition-card-content1">
                       <h3>{comp.title}</h3>
                       <p>{comp.description}</p>
                       <button
-                        className="competition-card-btn"
+                        className="competition-card-btn1"
                         onClick={() => window.open('https://wa.me/918951193682')}
                       >
                         Register
                       </button>
                     </div>
                     {comp.Prizes && (
-                      <div className="prize">
+                      <div className="prize1">
                         <h5>{comp.prizesheading}</h5>
                         {comp.Prizes}
                       </div>
