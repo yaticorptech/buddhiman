@@ -310,6 +310,7 @@
 }
 
 @media ((min-width: 376px) and (max-width: 480px)) {
+
     .ind-card-row {
         padding: 5px;
         display: flex;
@@ -319,7 +320,7 @@
   .ind-table-wrapper {
     overflow-x: auto;
     width: 100%;
-    padding-left: 35px;
+
 }
     .navbar{
         max-width: 100%;

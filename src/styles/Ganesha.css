@@ -344,7 +344,27 @@
   .Ganesha-table-wrapper {
     overflow-x: auto;
     width: 100%;
-    padding-left: 35px;
+}
+.Ganesha-card-row{
+    padding: 5px;
+        display: grid;
+        justify-items: center;
+}
+.competition-card-content{
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.Ganesha-description li {
+    font-size: 12px;
+}
+    .Ganesha-content h3 {
+        font-size: 16px;
+    }
+.competition-card{
+      display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
 }
     .navbar{
         max-width: 100%;
@@ -374,8 +394,11 @@
 .Ganesha-card-row{
   gap: 0;
 }
-.Ganesha-content h3{
+.competition-card-content p {
+    color: #444;
     font-size: 12px;
+    margin-bottom: 16px;
+    line-height: 1.5;
 }
 .Ganesha-description p{
     font-size: 10px;
@@ -390,16 +413,15 @@
 }
 .Ganesha-table-wrapper tr{
     font-size: 8px;
-    padding: 0;
+    padding-left: 10px;
 }
 .Ganesha-button{
     width: fit-content;
-    margin-right: 35%;
+    margin-right: 33%;
     font-size: 10px;
     padding: 5px;
 }
 }
-
 /* Small Devices: 481px – 767px */
 @media (min-width: 481px) and (max-width: 767px) {
   .Ganesha-table-wrapper {
