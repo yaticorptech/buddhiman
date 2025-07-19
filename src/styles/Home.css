@@ -91,6 +91,17 @@ a.menuLink {
   transform: var(--base-transform, translate(0,0));
   
 }
+.headdinng {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.headdinng img{
+  width: 70px;
+  height: 80px;
+}
 .price p1{
 text-align: right ;
 }

@@ -23,7 +23,7 @@ import aa9 from '../assets/gallery/1.png';
 import aa10 from '../assets/gallery/10.png';
 import aa11 from '../assets/gallery/11.png';
 import aa14 from '../assets/gallery/14.png';
-
+import Logo from '../assets/buddhimanLOGOfinal.png';
 import '../styles/Home.css';
 import { MenuList } from '../helpers/MenuList';
 import MenuItemCard from '../components/MenuItemCard';
@@ -81,8 +81,9 @@ function Home() {
         {/* Home Section */}
         <section className="home" id="home1">
           <div className="headerContainer">
-            <h2 className="gradient-text">Buddhiman</h2>
-
+            <div className='headdinng'> <img src={Logo}></img> <h2 className="gradient-text">Buddhiman</h2>
+</div>
+           
             {/* Decorative Symbols */}
            
 
