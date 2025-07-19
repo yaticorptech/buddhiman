@@ -461,6 +461,9 @@ a.menuLink {
 
 /* ========== Medium Devices (Tablets & Small Laptops: 768px - 1024px) ========== */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .home{
+    height: 50vh;
+  }
   .gradient-text {
     font-size: 4rem;
   }
