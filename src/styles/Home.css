@@ -92,15 +92,22 @@ a.menuLink {
   
 }
 .headdinng {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
     gap: 10px;
+    justify-items: start;
 }
 .headdinng img{
-  width: 70px;
-  height: 80px;
+  position: relative;
+  width: 150px;
+  height: 180px;
+  bottom: 20px;
+  right: -520px;
+}
+.insidehead{
+  position: relative;
+  left: -220px;
 }
 .price p1{
 text-align: right ;
@@ -148,9 +155,8 @@ text-align: right ;
 
 
 .gradient-text {
-
   font-family: 'Samkaran', sans-serif;
-  font-size: 7rem;
+  font-size: 100px;
   color: var(--primary-color);
   animation: bounceIn 1s ease-out;
 }
@@ -170,7 +176,7 @@ text-align: right ;
 }
 
 .p1 {
-  font-size: 1.5rem;
+  font-size: 28px;
   margin-top: 0;
   color: #000;
 }
@@ -612,7 +618,7 @@ text-align: right ;
 }
 
 /* ========== Extra Large Devices (4K Screens, iMacs 1440px+) ========== */
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .gradient-text {
     font-size: 6rem;
   }
@@ -635,4 +641,4 @@ text-align: right ;
     width: 380px;
     height: 250px;
   }
-}
+} */

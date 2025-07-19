@@ -81,13 +81,14 @@ function Home() {
         {/* Home Section */}
         <section className="home" id="home1">
           <div className="headerContainer">
-            <div className='headdinng'> <img src={Logo}></img> <h2 className="gradient-text">Buddhiman</h2>
+            <div className='headdinng'><img src={Logo}></img> <div className='insidehead'><h2 className="gradient-text" >Buddhiman</h2>
+            <p className="p1">A Fusion of Culture, Confidence & Creativity.</p></div> 
 </div>
            
             {/* Decorative Symbols */}
            
 
-            <p className="p1">A Unique Fusion of Culture, Confidence & Creativity.</p>
+            
             <button
               className="whatsapp"
               aria-label="Register via WhatsApp"
