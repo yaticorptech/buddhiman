@@ -27,7 +27,7 @@ a.menuLink {
 .home {
   align-items: center;
   background: var(--background-gradient);
-  height: 40vh;
+  height: 50vh;
   position: relative;
   overflow: hidden;
 }
@@ -488,7 +488,7 @@ a.menuLink {
 }
 
 /* ========== Large Devices (Desktops 1024px - 1440px) ========== */
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .gradient-text {
     font-size: 5rem;
   }
