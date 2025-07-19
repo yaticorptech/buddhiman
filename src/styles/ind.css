@@ -309,7 +309,7 @@
     }
 }
 
-@media ((min-width: 376px) and (max-width: 480px)) {
+@media ((min-width: 376px) and (max-width: 430px)) {
 
     .ind-card-row {
         padding: 5px;
@@ -378,7 +378,7 @@
 }
 
 /* Small Devices: 481px – 767px */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 431px) and (max-width: 767px) {
     .ind-card-row {
         padding: 5px;
         display: flex;
