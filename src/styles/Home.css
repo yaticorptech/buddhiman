@@ -397,3 +397,137 @@ a.menuLink {
 .showMoreBtn:hover {
   background-color: #333;
 }
+/* ========== Responsive for Extra Small Devices (Phones < 480px) ========== */
+@media (max-width: 480px) {
+  .gradient-text {
+    font-size: 2.5rem;
+  }
+  .p1 {
+    font-size: 1rem;
+  }
+  .symbol-img {
+    width: 30px;
+    height: 30px;
+  }
+  .menuItem {
+    width: 90vw;
+    height: auto;
+  }
+  .eventimage {
+    width: 90%;
+    height: 180px;
+  }
+  .thumb-image {
+    width: 40px;
+    height: 40px;
+  }
+  .menuTitle {
+    font-size: 1.8rem;
+  }
+  .category-title {
+    font-size: 1.2rem;
+  }
+}
+
+/* ========== Responsive for Small Devices (Phones & Small Tablets < 768px) ========== */
+@media (max-width: 768px) {
+  .gradient-text {
+    font-size: 3rem;
+  }
+  .p1 {
+    font-size: 1.2rem;
+  }
+  .symbol-img {
+    width: 35px;
+    height: 35px;
+  }
+  .menuItem {
+    width: 100%;
+    height: auto;
+  }
+  .menuList {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .eventimage {
+    width: 100%;
+    height: 200px;
+  }
+  .imageSlider1 img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* ========== Medium Devices (Tablets & Small Laptops: 768px - 1024px) ========== */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .gradient-text {
+    font-size: 4rem;
+  }
+  .p1 {
+    font-size: 1.4rem;
+  }
+  .symbol-img {
+    width: 45px;
+    height: 45px;
+  }
+  .menuList {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .menuItem {
+    width: 90%;
+    height: auto;
+  }
+  .eventimage {
+    width: 100%;
+    height: 240px;
+  }
+}
+
+/* ========== Large Devices (Desktops 1024px - 1440px) ========== */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .gradient-text {
+    font-size: 5rem;
+  }
+  .p1 {
+    font-size: 1.5rem;
+  }
+  .symbol-img {
+    width: 60px;
+    height: 60px;
+  }
+  .menuItem {
+    width: 360px;
+    height: 480px;
+  }
+  .eventimage {
+    width: 340px;
+    height: 220px;
+  }
+}
+
+/* ========== Extra Large Devices (4K Screens, iMacs 1440px+) ========== */
+@media (min-width: 1440px) {
+  .gradient-text {
+    font-size: 6rem;
+  }
+  .p1 {
+    font-size: 1.8rem;
+  }
+  .symbol-img {
+    width: 80px;
+    height: 80px;
+  }
+  .menuList {
+    max-width: 1400px;
+    gap: 30px;
+  }
+  .menuItem {
+    width: 400px;
+    height: 520px;
+  }
+  .eventimage {
+    width: 380px;
+    height: 250px;
+  }
+}
