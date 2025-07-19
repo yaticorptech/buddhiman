@@ -27,7 +27,7 @@ a.menuLink {
 .home {
   align-items: center;
   background: var(--background-gradient);
-  height: 50vh;
+  height: 40vh;
   position: relative;
   overflow: hidden;
 }
@@ -37,6 +37,7 @@ a.menuLink {
   text-align: center;
   padding-top: 40px;
   z-index: 10;
+  top:50px;
 }
 
 
@@ -132,10 +133,7 @@ a.menuLink {
   animation: fadeIn 1s ease-out;
 } */
 
-.headerContainer {
-  text-align: center;
-  top:100px;
-}
+
 .gradient-text {
 
   font-family: 'Samkaran', sans-serif;
