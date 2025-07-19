@@ -424,6 +424,12 @@
 }
 /* Small Devices: 481px – 767px */
 @media (min-width: 481px) and (max-width: 767px) {
+  .competition-card {
+        display: grid
+;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
   .Ganesha-table-wrapper {
     overflow-x: auto;
     width: 100%;
