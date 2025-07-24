@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/Ganesha.css';
-import Image1 from '../assets/Fancydress/Muddukrishna.png';
-import Image2 from '../assets/Fancydress/littlekrishna.png'
+import Image1 from '../assets/Fancydress/krishnavesha.jpg';
+import Image2 from '../assets/Fancydress/krishnabanner.jpg'
 
 const Krish = [
   {
@@ -88,12 +88,12 @@ Celebrate Krishna Janmashtami with budhiman.com!
       </div>
     </>
   ),
-  image: Image2,
+  image: Image1,
   link: 'https://wame.pro/fancydress-registration'
 }
 
     ],
-    img: Image1,
+    img: Image2,
     link: 'https://wame.pro/resetpassword'
   }
 ];

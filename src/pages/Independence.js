@@ -2,48 +2,35 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/Ganesha.css';
-import Image1 from '../assets/Fancydress/ind.png';
-import Image2 from '../assets/Fancydress/ind2.png'
+import Image1 from '../assets/Fancydress/indquiz.jpg';
+import Image2 from '../assets/Fancydress/indsing.jpg'
+import Image3 from '../assets/Fancydress/indbanner.jpg'
 
 
 
 const Ganesha = [
   {
     id: 1,
-    title: '  Independence Day – ‘Vande Bharata Maatram’ Patriotic Singing Competition 2025',
-    description: (
-      <>
+    // title: '  Independence Day – ‘Vande Bharata Maatram’ Patriotic Singing Competition 2025',
+    // description: (
+    //   <>
 
        
       
-        <p>On account of Independence Day 2025, Budhiman presents Vande Bharata Maataram – a patriotic singing competition scheduled to be held from July 20, 2025, to August 20, 2025. The last date to send your entries is August 20, 2025, and the final results will be announced on August 25, 2025. This competition is open to all age groups. However, multiple or duplicate entries will not be entertained and will result in disqualification. Each performance should be a maximum of 3 minutes in duration. The use of musical instruments is not allowed, although a shruti box may be used. Winners will receive a cash prize along with an attractive memento and a certificate.</p>
+    //     <p>On account of Independence Day 2025, Budhiman presents Vande Bharata Maataram – a patriotic singing competition scheduled to be held from July 20, 2025, to August 20, 2025. The last date to send your entries is August 20, 2025, and the final results will be announced on August 25, 2025. This competition is open to all age groups. However, multiple or duplicate entries will not be entertained and will result in disqualification. Each performance should be a maximum of 3 minutes in duration. The use of musical instruments is not allowed, although a shruti box may be used. Winners will receive a cash prize along with an attractive memento and a certificate.</p>
           
-      </>
-    ),
+    //   </>
+    // ),
     Competitions: [
       {
         title: 'Independence Day Online Quiz Competition',
         description:(
    <>
-        <p>
-      Vande Bharata Maataram – 2025
-Patriotic Singing Competition by budhiman!
-        </p>
-        <p>🗓 Dates: July 20 – August 20, 2025
-📩 Last Date: August 20, 2025 | 🏆 Results: August 25, 2025
- <br/>
-</p><p>
-<strong>Details:
-</strong>
-</p>
-        <ul>
-          <li>Open to all age groups</li>
-          <li>One entry per participant only</li>
-          <li>Max duration: 3 minutes</li>
-          <li>No instruments allowed; shruti box permitted</li>
-          <li>Winners get cash prize, memento & certificate</li>
-        </ul>
-          
+        <p>Celebrate India’s journey of courage, unity, and resilience by participating in our specially curated Independence Day Quiz. Dive into questions about our freedom fighters, national symbols, historical milestones, and constitutional values — and put your knowledge to the test in a fun and rewarding way.</p>
+          <ul>
+           <strong>Theme: Independence, Indian History, National Identity & Constitution</strong> <br/>
+<strong>Quiz Date: August 15, 2025</strong>
+          </ul>
       </>),  
         prizesheading: '🏆 Prize Details',
         Prizes:(<>
@@ -107,7 +94,7 @@ Patriotic Singing Competition by budhiman!
         image: Image1,
         link: 'https://wame.pro/art-registration'
       },
-      {title: 'Independence Day Online Quiz Competition',
+      {title: 'Independence Day – ‘Vande Bharata Maatram’ Patriotic Singing Competition 2025',
         description:(
    <>
         <p>
@@ -189,12 +176,12 @@ Patriotic Singing Competition by budhiman!
     </table>
     </div></>),
 
-        image: Image1,
+        image: Image2,
         link: 'https://wame.pro/art-registration'
 
       }
     ],
-    img: Image2,
+    img: Image3,
     link: 'https://wame.pro/resetpassword'
   }
 ];

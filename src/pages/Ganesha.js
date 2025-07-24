@@ -2,9 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import '../styles/Ganesha.css';
-import Image1 from '../assets/Fancydress/Ganesh5.png';
-import Image2 from '../assets/Fancydress/Ganesh2.png';
-import Image3 from '../assets/Fancydress/Ganesh4.png';
+import Image1 from '../assets/Fancydress/ganeshasing.jpg';
+import Image2 from '../assets/Fancydress/ganeshabanner.jpg';
+import Image3 from '../assets/Fancydress/ganeshaart.jpg';
 const Ganesha = [
   {
 
@@ -182,12 +182,12 @@ Sing Lord Ganesha devotional songs in any language</li>
       </table>
     </div>
   ),
-  image: Image2,
+  image: Image1,
   link: 'https://wame.pro/devotional-singing-registration'
 }
 
     ],
-    img: Image1,
+    img: Image2,
     link: 'https://wame.pro/resetpassword'
   }
 ];
