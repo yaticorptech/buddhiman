@@ -106,6 +106,92 @@ Patriotic Singing Competition by budhiman!
 
         image: Image1,
         link: 'https://wame.pro/art-registration'
+      },
+      {title: 'Independence Day Online Quiz Competition',
+        description:(
+   <>
+        <p>
+      Vande Bharata Maataram – 2025
+Patriotic Singing Competition by budhiman!
+        </p>
+        <p>🗓 Dates: July 20 – August 20, 2025
+📩 Last Date: August 20, 2025 | 🏆 Results: August 25, 2025
+ <br/>
+</p><p>
+<strong>Details:
+</strong>
+</p>
+        <ul>
+          <li>Open to all age groups</li>
+          <li>One entry per participant only</li>
+          <li>Max duration: 3 minutes</li>
+          <li>No instruments allowed; shruti box permitted</li>
+          <li>Winners get cash prize, memento & certificate</li>
+        </ul>
+          
+      </>),  
+        prizesheading: '🏆 Prize Details',
+        Prizes:(<>
+     <div className="Ganesha-table-wrapper">
+    <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px' }}>
+      <thead>
+        <tr style={{ backgroundColor: '#f2f2f2' }}>
+          <th style={{ padding: '8px', border: '1px solid #ddd', fontWeight: 'bold', textAlign: 'center' }}>AGE</th>
+          <th style={{ padding: '8px', border: '1px solid #ddd', fontWeight: 'bold', textAlign: 'center' }}>PLACE</th>
+          <th style={{ padding: '8px', border: '1px solid #ddd', fontWeight: 'bold', textAlign: 'center' }}>CASH PRIZE</th>
+          <th style={{ padding: '8px', border: '1px solid #ddd', fontWeight: 'bold', textAlign: 'center' }}>MEMENTO</th>
+          <th style={{ padding: '8px', border: '1px solid #ddd', fontWeight: 'bold', textAlign: 'center' }}>CERTIFICATE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>5–18 Years</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>SECOND</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹5,000/-</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+        </tr>
+
+        <tr>
+          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>19–30 Years</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>SECOND</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹5,000/-</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+        </tr>
+
+        <tr>
+          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>31 & Above</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+        </tr>
+        <tr>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>SECOND</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹5,000/-</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+          <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
+        </tr>
+      </tbody>
+    </table>
+    </div></>),
+
+        image: Image1,
+        link: 'https://wame.pro/art-registration'
+
       }
     ],
     img: Image2,
