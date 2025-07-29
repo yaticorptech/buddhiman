@@ -27,7 +27,7 @@ a.menuLink {
 .home {
   align-items: center;
   background: var(--background-gradient);
-  height: 40vh;
+  height: 50vh;
   position: relative;
   overflow: hidden;
 }
