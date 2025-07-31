@@ -163,6 +163,26 @@
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
+.competition-card-btn2 {
+  padding: 10px 20px;
+  background-color: #ffa200;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.competition-card-btn3 {
+  padding: 10px 20px;
+  background-color: #ffa200;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
 
 .competition-card-btn1:hover {
   background-color: #0044cc;

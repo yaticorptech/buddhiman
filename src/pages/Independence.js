@@ -177,12 +177,10 @@ Patriotic Singing Competition by budhiman!
     </div></>),
 
         image: Image2,
-        link: 'https://wame.pro/art-registration'
 
       }
     ],
     img: Image3,
-    link: 'https://wame.pro/resetpassword'
   }
 ];
 
@@ -220,7 +218,7 @@ function Media() {
                       <h3>{comp.title}</h3>
                       <p>{comp.description}</p>
                       <button
-                        className="competition-card-btn1"
+                        className="competition-card-btn3"
                         onClick={() => window.open('https://wa.me/918951193682')}
                       >
                         Register
