@@ -93,8 +93,7 @@ Celebrate Krishna Janmashtami with budhiman.com!
 }
 
     ],
-    img: Image2,
-    link: 'https://wame.pro/Krishnajanmastami'
+    img: Image2
   }
 ];
 
