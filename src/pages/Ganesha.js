@@ -108,8 +108,7 @@ Guidelines:
     </table>
     </div></>),
 
-        image: Image3,
-        link: 'https://wame.pro/art-registration'
+        image: Image3
       },
      {
   title: 'Devotional Singing Competition',
@@ -182,13 +181,11 @@ Sing Lord Ganesha devotional songs in any language</li>
       </table>
     </div>
   ),
-  image: Image1,
-  link: 'https://wame.pro/devotional-singing-registration'
+  image: Image1
 }
 
     ],
-    img: Image2,
-    link: 'https://wame.pro/resetpassword'
+    img: Image2
   }
 ];
 
@@ -227,7 +224,7 @@ function Media() {
                       <p>{comp.description}</p>
                       <button
                         className="competition-card-btn1"
-                        onClick={() => window.open('https://wa.me/918951193682')}
+                        onClick={() => window.open('https://wame.pro/ganesha25')}
                       >
                         Register
                       </button>
