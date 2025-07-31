@@ -89,12 +89,12 @@ Celebrate Krishna Janmashtami with budhiman.com!
     </>
   ),
   image: Image1,
-  link: 'https://wame.pro/fancydress-registration'
+  link: 'https://wame.pro/Krishnajanmastami'
 }
 
     ],
     img: Image2,
-    link: 'https://wame.pro/resetpassword'
+    link: 'https://wame.pro/Krishnajanmastami'
   }
 ];
 
