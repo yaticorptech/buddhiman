@@ -132,10 +132,10 @@ text-align: right ;
 .symbol4  { top: 180px; left: 68%; }
 .symbol5  { top: 230px; left: 40%; transform: translateX(-50%); }
 .symbol6  { top: 180px; left: 22%; }
-.symbol7  { top: -20px; left: 2%; }
-.symbol8  { top: 10px;  left: 32%; }
-.symbol9  { top: 5px; left: 50%; transform: translate(-50%, -50%); }
-.symbol10 { top: -10px; left: -90%; }
+.symbol7  { top: 100px; left: 5%; }
+.symbol8  { top: 10px;  left: 22%; }
+.symbol9  { top: -40px; left: 50%; transform: translate(-50%, -50%); }
+.symbol10 { top: 20px; left: 60%; }
 .symbol11 { top: 40px; left: 40%; }
 .symbol14 { top: 200px; left: 90%; }
 
