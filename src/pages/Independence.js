@@ -177,7 +177,6 @@ Patriotic Singing Competition by budhiman!
     </div></>),
 
         image: Image2,
-
       }
     ],
     img: Image3,

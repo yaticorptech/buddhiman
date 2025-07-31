@@ -26,11 +26,11 @@ const Ganesha = [
     ),
     Competitions: [
       {
-        title: 'Vinayaka Vandana 2025 – Pencil Sketching Competition',
+        title: 'Vinayaka Vandana 2025 – Pencil Sketch/Painting Competition',
         description:(
         <>
         <p>
-         Vinayaka Vandana 2025 – Pencil Sketching Competition Celebrate Ganesha Chaturthi with budhiman!
+         Vinayaka Vandana 2025 – Pencil Sketching/Painting Competition: Celebrate Ganesha Chaturthi with budhiman!
         </p>
         <p>🗓 Dates: August 15 – September 10, 2025 <br/>
 📩 Last Date: September 10, 2025 | 🏆 Results: September 15, 2025 <br/>
@@ -41,7 +41,6 @@ Guidelines:
 
 </p>
         <ul>
-          <li>Use pencils only (charcoal/graphite). No color or ink pens</li>
           <li>Upload clear scanned copies of sketches (no photos)</li>
           <li>Jury decision is final</li>
           <li>Best sketches featured on social media</li>
@@ -223,7 +222,7 @@ function Media() {
                       <h3>{comp.title}</h3>
                       <p>{comp.description}</p>
                       <button
-                        className="competition-card-btn1"
+                        className="competition-card-btn2"
                         onClick={() => window.open('https://wame.pro/ganesha25')}
                       >
                         Register
