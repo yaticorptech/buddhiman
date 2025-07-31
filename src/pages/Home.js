@@ -92,7 +92,7 @@ function Home() {
             <button
               className="whatsapp"
               aria-label="Register via WhatsApp"
-              onClick={() => window.open('https://wame.pro/resetpassword', '_blank')}
+              onClick={() => window.open('https://wame.pro/buddhiman.in', '_blank')}
             >
               <img src={walogo} alt="WhatsApp Logo" className="whatsapp-logo" />
               <span className="register">Register Now</span>
