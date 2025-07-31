@@ -219,7 +219,7 @@ function Media() {
                       <p>{comp.description}</p>
                       <button
                         className="competition-card-btn3"
-                        onClick={() => window.open('https://wa.me/918951193682')}
+                        onClick={() => window.open('https://wame.pro/ind25')}
                       >
                         Register
                       </button>

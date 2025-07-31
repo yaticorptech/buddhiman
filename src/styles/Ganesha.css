@@ -188,7 +188,14 @@
   background-color: #0044cc;
   color: white;
 }
-
+.competition-card-btn2:hover {
+  background-color: #0044cc;
+  color: white;
+}
+.competition-card-btn3:hover {
+  background-color: #0044cc;
+  color: white;
+}
 
 /* ---------------------------- Responsive ---------------------------- */
 
