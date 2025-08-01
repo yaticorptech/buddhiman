@@ -99,7 +99,7 @@ const Ganesha = [
    <>
         <p>
       Vande Bharata Maataram – 2025
-Patriotic Singing Competition by budhiman!
+Patriotic Singing Competition by buddhiman!
         </p>
         <p>🗓 Dates: July 20 – August 20, 2025
 📩 Last Date: August 20, 2025 | 🏆 Results: August 25, 2025
