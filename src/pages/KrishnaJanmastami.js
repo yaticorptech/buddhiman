@@ -57,7 +57,7 @@ Celebrate Krishna Janmashtami with budhiman.com!
           </thead>
           <tbody>
             <tr>
-              <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>1–5 Years</td>
+              <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>Upto 5 Years</td>
               <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
               <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
               <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
