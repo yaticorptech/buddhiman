@@ -12,7 +12,7 @@ const Ganesha = [
     description: (
    <>
         <p>
-          On account of Ganesha Chathurti, budhiman.com presents Vinayaka Vandana 2025 – Pencil Sketching and Ganeshaing Competition, between August 15, 2025 to September 10, 2025.
+          On account of Ganesha Chathurti, buddhiman.com presents Vinayaka Vandana 2025 – Drawing Competition, between August 15, 2025 to September 10, 2025.
         </p>
         <ul>
           <li>The last date to submit your entry is September 10, 2025. The final results will be announced on September 15, 2025.</li>
@@ -30,7 +30,7 @@ const Ganesha = [
         description:(
         <>
         <p>
-         Vinayaka Vandana 2025 – Pencil Sketching/Painting Competition: Celebrate Ganesha Chaturthi with budhiman!
+         Vinayaka Vandana 2025 – Pencil Sketching/Painting Competition: Celebrate Ganesha Chaturthi with buddhiman!
         </p>
         <p>🗓 Dates: August 15 – September 10, 2025 <br/>
 📩 Last Date: September 10, 2025 | 🏆 Results: September 15, 2025 <br/>
@@ -115,7 +115,7 @@ Guidelines:
     <>
         <p>
          Devotional Singing Competition – 2025
-Organized by budhiman<br/>
+Organized by buddhiman<br/>
 
 🗓 Dates & Results: (Same as other contests)<br/>
 </p>
