@@ -23,7 +23,7 @@ import aa9 from '../assets/gallery/1.png';
 import aa10 from '../assets/gallery/10.png';
 import aa11 from '../assets/gallery/11.png';
 import aa14 from '../assets/gallery/14.png';
-
+import Logo from '../assets/buddhimanLOGOfinal.png';
 import '../styles/Home.css';
 import { MenuList } from '../helpers/MenuList';
 import MenuItemCard from '../components/MenuItemCard';
@@ -81,16 +81,18 @@ function Home() {
         {/* Home Section */}
         <section className="home" id="home1">
           <div className="headerContainer">
-            <h2 className="gradient-text">Buddhiman</h2>
-
+            <div className='headdinng'><img src={Logo}></img> <div className='insidehead'><h2 className="gradient-text" >Buddhiman</h2>
+            <p className="p1">A Fusion of Culture, Confidence & Creativity.</p></div> 
+</div>
+           
             {/* Decorative Symbols */}
            
 
-            <p className="p1">A Unique Fusion of Culture, Confidence & Creativity.</p>
+            
             <button
               className="whatsapp"
               aria-label="Register via WhatsApp"
-              onClick={() => window.open('https://wame.pro/resetpassword', '_blank')}
+              onClick={() => window.open('https://wame.pro/buddhiman.in', '_blank')}
             >
               <img src={walogo} alt="WhatsApp Logo" className="whatsapp-logo" />
               <span className="register">Register Now</span>
@@ -143,10 +145,10 @@ function Home() {
           <div className="aboutBottom">
             <h1>About Us</h1>
             <p>
-              <b>Buddhiman</b> is an online platform dedicated to recognizing and nurturing intelligence, creativity, and talent among individuals of all ages.
-              The platform offers a wide range of thoughtfully curated competitions. It encourages critical thinking, collaboration, and confidence-building. It aims to foster a culture of curiosity and continuous learning by bringing together like-minded individuals passionate about personal excellence.
-              Buddhiman not only celebrates achievement but also motivates participants to push their limits and discover their full potential.
+            <strong>Buddhiman</strong> is a new digital initiative launched by <strong>Team Black and White Production</strong>, an organization that has been contributing to the social and educational growth of the region for years.
             </p>
+            <p>The core objective of this platform is to nurture creativity, talent, and continuous learning among individuals of all age groups. To achieve this, the platform hosts a variety of online competitions throughout the year, encouraging participants to showcase their skills in areas such as quizzing, music, drawing, and more. These events are thoughtfully scheduled to coincide with national festivals and cultural occasions, turning celebrations into opportunities for growth .After organizing successful state-level events, we are now taking a bold step forward by blending education, technology, and tradition through this inclusive and engaging platform.
+</p>
           </div>
 
           {/* Gallery Section */}

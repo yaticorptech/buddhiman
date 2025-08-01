@@ -91,7 +91,28 @@ a.menuLink {
   transform: var(--base-transform, translate(0,0));
   
 }
-
+.headdinng {
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 10px;
+    justify-items: start;
+}
+.headdinng img{
+  position: relative;
+  width: 150px;
+  height: 180px;
+  bottom: 20px;
+  right: -520px;
+  animation: bounceIn 1s ease-out;
+}
+.insidehead{
+  position: relative;
+  left: -220px;
+}
+.price p1{
+text-align: right ;
+}
 
 @keyframes float {
   0% { transform: translateY(0) rotate(20deg); }
@@ -112,10 +133,10 @@ a.menuLink {
 .symbol5  { top: 230px; left: 40%; transform: translateX(-50%); }
 .symbol6  { top: 180px; left: 22%; }
 .symbol7  { top: 100px; left: 5%; }
-.symbol8  { top: 10px;  left: 32%; }
-.symbol9  { top: 125px; left: 50%; transform: translate(-50%, -50%); }
+.symbol8  { top: 10px;  left: 22%; }
+.symbol9  { top: -40px; left: 50%; transform: translate(-50%, -50%); }
 .symbol10 { top: 20px; left: 60%; }
-.symbol11 { top: 40px; left: 40%; }
+.symbol11 { top: -15px; left: 40%; }
 .symbol14 { top: 200px; left: 90%; }
 
 
@@ -135,9 +156,8 @@ a.menuLink {
 
 
 .gradient-text {
-
   font-family: 'Samkaran', sans-serif;
-  font-size: 7rem;
+  font-size: 100px;
   color: var(--primary-color);
   animation: bounceIn 1s ease-out;
 }
@@ -157,7 +177,7 @@ a.menuLink {
 }
 
 .p1 {
-  font-size: 1.5rem;
+  font-size: 28px;
   margin-top: 0;
   color: #000;
 }
@@ -198,7 +218,7 @@ a.menuLink {
 /* Menu Section */
 .menu {
   background: var(--background-color);
-  padding: 50px 0;
+  padding: 10px 0;
   text-align: center;
   display: grid;
   justify-items: center;
@@ -258,6 +278,14 @@ a.menuLink {
 .price {
   width: 100%;
   text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+
+
+.price p1{
+text-align: right ;
 }
 .hoverContent {
   padding: 15px;
@@ -397,3 +425,280 @@ a.menuLink {
 .showMoreBtn:hover {
   background-color: #333;
 }
+/* ========== Responsive for Extra Small Devices (Phones < 480px) ========== */
+
+@media (min-width: 320px) and (max-width: 399px) {
+  
+.headdinng {
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 10px;
+    justify-items: start;
+}
+.headdinng img{
+  position: relative;
+  right: -50%;
+    width: 40px;
+  height: 50px;
+  top: -2px;
+}
+.insidehead{
+  text-align: center;
+  position: relative;
+  left: -40%;
+  
+}
+.insidehead p{
+  font-size: 10px;
+  margin: 0px;
+}
+.insidehead h2{
+  margin-top: 0px;
+}
+.home{
+  height: 40vh;
+}
+.gradient-text{
+  font-size: 30px;
+}
+ .price{
+  font-size: 10px;
+ }
+  .category{
+    width: 100%;
+    height: auto;
+  }
+  .thumbnails{
+    margin-top: 0px;
+  }
+  .aboutBottom p{
+    font-size: 10px;
+  }
+  .whatsapp{
+    padding: 5px 10px;
+    padding-left: 3px;
+    padding-right: 5px;
+  }
+  .aboutBottom h1{
+    font-size: 20px;
+  }
+  .aboutBottom{
+    padding-top: 10px;
+  }
+
+  .p1{
+    font-size: 15px;
+  }
+
+
+  .symbol-img {
+    width: 30px;
+    height: 30px;
+  }
+  .menuItem {
+    width: 90vw;
+    height: auto;
+            gap: 15px;
+  }
+  .eventimage {
+    width: 90%;
+    height: 180px;
+  }
+  .thumb-image {
+    width: 40px;
+    height: 40px;
+  }
+  .menuTitle {
+    font-size: 1.8rem;
+  }
+  .category-title {
+    font-size: 1.2rem;
+  }
+
+}
+@media (min-width: 400px) and (max-width: 480px) {
+  
+.headdinng {
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 10px;
+    justify-items: start;
+}
+.headdinng img{
+  position: relative;
+  bottom: 10px;
+  left: 35%;
+    width: 70px;
+  height: 90px;
+}
+.insidehead{
+  text-align: center;
+  position: relative;
+  left: -30%;
+}
+.insidehead p{
+  font-size: 10px;
+  margin-top: 0px;
+}
+.insidehead h2{
+  margin-top: 10px;
+}
+.home{
+  height: 40vh;
+}
+ .price{
+  font-size: 10px;
+ }
+  .gradient-text {
+    font-size: 2.5rem;
+  }
+  .p1 {
+    font-size: 1rem;
+  }
+  .symbol-img {
+    width: 30px;
+    height: 30px;
+  }
+  .menuItem {
+    width: 300px;
+    height: 400px;
+  }
+  .hoverContent{
+    font-size: 10px;
+  }
+      .eventimage {
+        width: 100%;
+        height: 100%;
+    }
+  .thumb-image {
+    width: 40px;
+    height: 40px;
+  }
+  .menuTitle {
+    font-size: 1.8rem;
+  }
+  .category-title {
+    font-size: 1.2rem;
+  }
+
+}
+
+/* ========== Responsive for Small Devices (Phones & Small Tablets < 768px) ========== */
+@media (min-width: 481px) and (max-width: 768px)  {
+  .headdinng img{
+  width: 40px;
+  height: 50px;
+}
+  .gradient-text {
+    font-size: 3rem;
+  }
+  .p1 {
+    font-size: 1.2rem;
+  }
+  .symbol-img {
+    width: 35px;
+    height: 35px;
+  }
+  .menuItem {
+    width: 100%;
+    height: auto;
+  }
+  .menuList {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  .eventimage {
+    width: 100%;
+    height: 200px;
+  }
+  .imageSlider1 img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* ========== Medium Devices (Tablets & Small Laptops: 768px - 1024px) ========== */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .headdinng img{
+  width: 60px;
+  height: 70px;
+}
+  .home{
+    height: 50vh;
+  }
+  .gradient-text {
+    font-size: 4rem;
+  }
+  .p1 {
+    font-size: 1.4rem;
+  }
+  .symbol-img {
+    width: 45px;
+    height: 45px;
+  }
+  .menuList {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .menuItem {
+    width: 90%;
+    height: auto;
+  }
+  .eventimage {
+    width: 100%;
+    height: 240px;
+  }
+}
+
+/* ========== Large Devices (Desktops 1024px - 1440px) ========== */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .headdinng img{
+  width: 70px;
+  height: 80px;
+}
+  .gradient-text {
+    font-size: 5rem;
+  }
+  .p1 {
+    font-size: 1.5rem;
+  }
+  .symbol-img {
+    width: 60px;
+    height: 60px;
+  }
+  .menuItem {
+    width: 360px;
+    height: 480px;
+  }
+  .eventimage {
+    width: 340px;
+    height: 220px;
+  }
+}
+
+/* ========== Extra Large Devices (4K Screens, iMacs 1440px+) ========== */
+/* @media (min-width: 1440px) {
+  .gradient-text {
+    font-size: 6rem;
+  }
+  .p1 {
+    font-size: 1.8rem;
+  }
+  .symbol-img {
+    width: 80px;
+    height: 80px;
+  }
+  .menuList {
+    max-width: 1400px;
+    gap: 30px;
+  }
+  .menuItem {
+    width: 400px;
+    height: 520px;
+  }
+  .eventimage {
+    width: 380px;
+    height: 250px;
+  }
+} */

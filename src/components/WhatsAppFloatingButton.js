@@ -4,7 +4,7 @@ import React from 'react';
 const WhatsAppFloatingButton = () => {
   return (
     <a
-      href="https://wa.me/918951193682"
+      href="https://wame.pro/buddhiman.in"
       target="_blank"
       rel="noopener noreferrer"
       style={{

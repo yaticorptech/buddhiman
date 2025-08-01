@@ -39,7 +39,7 @@ function MenuItemCard({ menuItem, refEl }) {
 
       <div className="price">
         <p style={{ textDecoration: 'underline' }}>
-          <strong>Rs.249</strong>
+          <strong>Entry fee: Rs.249</strong>
         </p>
         <p1> <u><strong>Prize: Rs.10,000</strong></u></p1>
       </div>
