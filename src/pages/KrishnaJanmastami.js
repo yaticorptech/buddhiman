@@ -22,7 +22,7 @@ Photos must be high-quality, unedited, and in .jpg/.JPEG or .png format (max 4 M
   description: (
     <>
       <p>Muddu Krishna Costume Contest
-Celebrate Krishna Janmashtami with budhiman.com!
+Celebrate Krishna Janmashtami with buddhiman.com!
       </p>
       <p>🗓 When: July 20 – August 20, 2025 <br/>
 📩 Entry Deadline: August 20, 2025 | 🏆 Results: August 25, 2025
