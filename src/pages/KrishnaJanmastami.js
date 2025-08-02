@@ -11,7 +11,7 @@ const Krish = [
     title: 'Muddu Krishna Costume Contest 2025',
     description: (
       <>
-        <p>Buddhiman presents the Muddu Krishna Costume Contest on the occasion of Krishna Janmashtami, running from July 20 to August 20, 2025. Children up to 10 years can participate by dressing as Lord Krishna, with age categories of 1–5 and 6–10 years. Only one entry per child is allowed. The last date for submission is August 20, and results will be announced on August 25.
+        <p>Buddhiman presents the Muddu Krishna Costume Contest on the occasion of Krishna Janmashtami, running from July 20 to August 20, 2025. Children up to 10 years can participate by dressing as Lord Krishna, with age categories of Upto 5 and 6–10 years. Only one entry per child is allowed. The last date for submission is August 20, and results will be announced on August 25.
 Photos must be high-quality, unedited, and in .jpg/.JPEG or .png format (max 4 MB). Watermarked, blurry, or duplicate entries will be disqualified. The top 56 entries will be featured on Buddhiman and social media. Winners will receive a cash prize, memento, and certificate.</p>
        
       </>
