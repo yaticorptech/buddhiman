@@ -12,15 +12,21 @@ const Ganesha = [
   {
     id: 1,
     // title: '  Independence Day – ‘Vande Bharata Maatram’ Patriotic Singing Competition 2025',
-    // description: (
-    //   <>
+     description: (
+       <>
 
        
       
-    //     <p>On account of Independence Day 2025, Budhiman presents Vande Bharata Maataram – a patriotic singing competition scheduled to be held from July 20, 2025, to August 20, 2025. The last date to send your entries is August 20, 2025, and the final results will be announced on August 25, 2025. This competition is open to all age groups. However, multiple or duplicate entries will not be entertained and will result in disqualification. Each performance should be a maximum of 3 minutes in duration. The use of musical instruments is not allowed, although a shruti box may be used. Winners will receive a cash prize along with an attractive memento and a certificate.</p>
+         <p>Independence Day is a proud celebration of our nation's freedom and sovereignty.</p>
+         <p>It’s a day to remember the brave heroes who fought for our liberty and to honour the journey toward self-rule, unity, and national pride.<br/>
+Each year, the celebrations are themed to reflect our cultural spirit—this year, we embrace the powerful message of "Vande Bharata Maataram."<br/>
+Observed as a national holiday across India, Independence Day invites every citizen to reflect on the sacrifices made by our freedom fighters.<br/>
+On the occasion of Independence Day Buddhiman.in is organizing online competitions like Independence Day Online Quiz Competition and Vande Bharata Maatram Patriotic Singing Competition.<br/>
+At its heart, the day is a tribute to the spirit of unity in our beautiful diversity.
+</p>
           
-    //   </>
-    // ),
+       </>
+     ),
     Competitions: [
       {
         title: 'Independence Day Online Quiz Competition',

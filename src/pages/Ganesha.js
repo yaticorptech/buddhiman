@@ -12,15 +12,9 @@ const Ganesha = [
     description: (
    <>
         <p>
-          On account of Ganesha Chathurti, buddhiman.com presents Vinayaka Vandana 2025 – Drawing Competition, between August 15, 2025 to September 10, 2025.
+          Ganesh Chaturthi is one of the most popular and widely celebrated Hindu festivals in India. It marks the birth of Lord Ganesha, the beloved elephant-headed god, who is known as the remover of obstacles and the god of wisdom and new beginnings. Lord Ganesha is worshipped before starting any new venture or task. People believe that he brings success, peace, and prosperity. The festival holds cultural and spiritual importance and unites people from all walks of life. <br/>
+On the occasion of Ganesh Chaturthi Buddhiman.in is organizing online competitions like Vinayaka Vandana 2025 – Pencil Sketch/Painting Competition and Devotional Singing Competition.
         </p>
-        <ul>
-          <li>The last date to submit your entry is September 10, 2025. The final results will be announced on September 15, 2025.</li>
-          <li>The competition will be organized for three age categories – 5–18 years, 19–30 years, and 31 and above.</li>
-          <li>The participants are requested to use PENCILS ONLY (charcoal and graphite pencils). Sketches using colored pencils, gel pen, ball-point pen etc. will be disqualified.</li>
-          <li>Participants should upload the scanned copy of the sketch. ONLY clear copies will be forwarded by the selection panel to the jury. Jury decision is final. Best sketches will be uploaded on our social media pages.</li>
-          <li>Cash prize, an attractive memento, and a certificate await the winners.</li>
-        </ul>
           
       </>
     ),
