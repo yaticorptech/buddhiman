@@ -151,7 +151,7 @@ Sing Lord Ganesha devotional songs in any language</li>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
           </tr>
           <tr>
-            <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>19–30 Years</td>
+            <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>19 Years & Above</td>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
