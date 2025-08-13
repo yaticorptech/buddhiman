@@ -8,7 +8,7 @@ import Image2 from '../assets/Fancydress/krishnabanner.jpg'
 const Krish = [
   {
     id: 1,
-    title: 'Muddu Krishna Costume Contest 2025',
+    // title: 'Muddu Krishna Costume Contest 2025',
     description: (
       <>
         <p>Krishna Janmastami is the celebration of divine birth of Lord Krishna, who is known for spreading love, wisdom, and dharma. Symbolizes the victory of good over evil, as Krishna was born to end the tyranny of King Kansa. Inspires devotion, righteousness, and joy among devotees. Krishna Janmashtami reminds us of the values Lord Krishna stood for – truth, love, courage, and devotion. His teachings, especially those in the Bhagavad Gita, continue to guide people around the world in leading a righteous and meaningful life.<br/>

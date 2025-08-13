@@ -8,7 +8,7 @@ import Image3 from '../assets/Fancydress/ganeshaart.jpg';
 const Ganesha = [
   {
 
-    title: 'Vinayaka Vandana 2025',
+    // title: 'Vinayaka Vandana 2025',
     description: (
    <>
         <p>
