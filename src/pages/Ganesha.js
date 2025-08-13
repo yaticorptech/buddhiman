@@ -5,6 +5,8 @@ import '../styles/Ganesha.css';
 import Image1 from '../assets/Fancydress/ganeshasing.jpg';
 import Image2 from '../assets/Fancydress/ganeshabanner.jpg';
 import Image3 from '../assets/Fancydress/ganeshaart.jpg';
+import Image4 from '../assets/Fancydress/ganeshatopbanner.jpg';
+
 const Ganesha = [
   {
 
@@ -165,7 +167,7 @@ Sing Lord Ganesha devotional songs in any language</li>
 }
 
     ],
-    img: Image2
+    img: Image4
   }
 ];
 
