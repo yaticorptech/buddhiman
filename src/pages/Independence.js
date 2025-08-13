@@ -67,7 +67,7 @@ At its heart, the day is a tribute to the spirit of unity in our beautiful diver
         </tr>
 
         <tr>
-          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>19 Years & Above</td>
+          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>18 Years & Above</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
@@ -139,7 +139,7 @@ Patriotic Singing Competition by buddhiman!
         </tr>
 
         <tr>
-          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>19 Years & Above</td>
+          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>18 Years & Above</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>

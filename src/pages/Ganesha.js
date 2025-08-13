@@ -30,7 +30,7 @@ On the occasion of Ganesh Chaturthi Buddhiman.in is organizing online competitio
 📩 Last Date: September 10, 2025 | 🏆 Results: September 15, 2025 <br/>
 </p><p>
 <strong>Categories:</strong>
-<br/>5–18 yrs | 19–30 yrs | 31+ yrs <br/>
+<br/>5–18 yrs | 18–30 yrs | 31+ yrs <br/>
 Guidelines:
 
 </p>
@@ -71,7 +71,7 @@ Guidelines:
         </tr>
 
         <tr>
-          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>19 Years & Above</td>
+          <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>18 Years & Above</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
           <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
@@ -145,7 +145,7 @@ Sing Lord Ganesha devotional songs in any language</li>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
           </tr>
           <tr>
-            <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>19 Years & Above</td>
+            <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>18 Years & Above</td>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
             <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>

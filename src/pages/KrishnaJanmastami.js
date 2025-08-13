@@ -32,7 +32,7 @@ Celebrate Krishna Janmashtami with buddhiman.com!
 </p>
       <ul>
         <li>One entry per child (up to 10 yrs), dressed as Lord Krishna only</li>
-        <li>Age groups: Upto 5 yrs & 6–10 yrs</li>
+        <li>Age groups: Upto 5 yrs & 5–10 yrs</li>
         <li>No edits, watermarks, blurs, or screenshots</li>
         <li>Only clear, high-quality photos in .jpg/.jpeg/.png (max 4MB)</li>
         <li>Top photos reviewed by panel; jury decision is final</li>
@@ -72,7 +72,7 @@ Celebrate Krishna Janmashtami with buddhiman.com!
             </tr>
 
             <tr>
-              <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>6–10 Years</td>
+              <td rowSpan="2" style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>5–10 Years</td>
               <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>FIRST</td>
               <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>₹10,000/-</td>
               <td style={{ padding: '8px', border: '1px solid #ddd', textAlign: 'center' }}>✔️</td>
