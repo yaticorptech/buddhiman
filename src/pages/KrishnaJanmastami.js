@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import '../styles/Ganesha.css';
 import Image1 from '../assets/Fancydress/krishnavesha.jpg';
 import Image2 from '../assets/Fancydress/krishnabanner.jpg'
+import Image3 from '../assets/Fancydress/krishvanner.jpg'
 
 const Krish = [
   {
@@ -94,7 +95,7 @@ Celebrate Krishna Janmashtami with buddhiman.com!
 }
 
     ],
-    img: Image2
+    img: Image3
   }
 ];
 

@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import '../styles/Ganesha.css';
 import Image1 from '../assets/Fancydress/indquiz.jpg';
 import Image2 from '../assets/Fancydress/indsing.jpg'
-import Image3 from '../assets/Fancydress/indbanner.jpg'
+import Image3 from '../assets/Fancydress/indtopbanmner.jpg'
 
 
 
