@@ -32,7 +32,7 @@ On the occasion of Ganesh Chaturthi Buddhiman.in is organizing online competitio
 📩 Last Date: September 10, 2025 | 🏆 Results: September 15, 2025 <br/>
 </p><p>
 <strong>Categories:</strong>
-<br/>5–18 yrs | 18–30 yrs | 31+ yrs <br/>
+<br/>5–18 yrs | 18 & Above Years<br/>
 Guidelines:
 
 </p>
