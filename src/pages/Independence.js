@@ -35,7 +35,7 @@ At its heart, the day is a tribute to the spirit of unity in our beautiful diver
         <p>Celebrate India’s journey of courage, unity, and resilience by participating in our specially curated Independence Day Quiz. Dive into questions about our freedom fighters, national symbols, historical milestones, and constitutional values — and put your knowledge to the test in a fun and rewarding way.</p>
           <ul>
            <strong>Theme: Independence, Indian History, National Identity & Constitution</strong> <br/>
-<strong>Quiz Date: August 15, 2025</strong>
+<strong>Quiz Date: September 5, 2025</strong>
           </ul>
       </>),  
         prizesheading: '🏆 Prize Details',
@@ -95,7 +95,7 @@ At its heart, the day is a tribute to the spirit of unity in our beautiful diver
 Patriotic Singing Competition by buddhiman!
         </p>
         <p>🗓 Dates: July 20 – August 20, 2025
-📩 Last Date: August 20, 2025 | 🏆 Results: August 25, 2025
+📩 Last Date: September 5, 2025 
  <br/>
 </p><p>
 <strong>Details:
