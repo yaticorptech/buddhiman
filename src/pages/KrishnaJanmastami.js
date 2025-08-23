@@ -27,7 +27,7 @@ On the occasion of Krishna janmastami Buddhiman.in is organizing   an online com
 Celebrate Krishna Janmashtami with buddhiman.com!
       </p>
       <p>🗓 When: July 20 – August 20, 2025 <br/>
-📩 Entry Deadline: August 20, 2025 | 🏆 Results: August 25, 2025
+📩 Entry Deadline: September 10, 2025 
 </p>
 <p>Rules:
 </p>
