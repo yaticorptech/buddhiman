@@ -28,8 +28,8 @@ On the occasion of Ganesh Chaturthi Buddhiman.in is organizing online competitio
         <p>
          Vinayaka Vandana 2025 – Pencil Sketching/Painting Competition: Celebrate Ganesha Chaturthi with buddhiman!
         </p>
-        <p>🗓 Dates: August 15 – September 10, 2025 <br/>
-📩 Last Date: September 10, 2025 | 🏆 Results: September 15, 2025 <br/>
+        <p>🗓 From: August 15, 2025 <br/>
+📩 Last Date: September 5, 2025  <br/>
 </p><p>
 <strong>Categories:</strong>
 <br/>5–18 yrs | 18 & Above Years<br/>
@@ -100,7 +100,8 @@ Guidelines:
          Devotional Singing Competition – 2025
 Organized by buddhiman<br/>
 
-🗓 Dates & Results: (Same as other contests)<br/>
+🗓 From: August 15, 2025 <br/>
+📩 Last Date: September 5, 2025  <br/>
 </p>
 <p> <strong>Details:</strong></p>
         <ul>
