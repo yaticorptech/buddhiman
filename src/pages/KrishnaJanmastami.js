@@ -26,7 +26,7 @@ On the occasion of Krishna janmastami Buddhiman.in is organizing   an online com
       <p>Muddu Krishna Costume Contest
 Celebrate Krishna Janmashtami with buddhiman.com!
       </p>
-      <p>🗓 When: July 20, 2025 <br/>
+      <p>🗓 From: July 20, 2025 <br/>
 📩 Entry Deadline: September 10, 2025 
 </p>
 <p>Rules:
