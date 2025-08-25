@@ -32,7 +32,7 @@ Celebrate Krishna Janmashtami with buddhiman.com!
 <p>Rules:
 </p>
       <ul>
-        <li>One entry per child (up to 10 yrs), dressed as Lord Krishna only</li>
+        <li>One entry per child (up to 10 yrs), dressed as Lord Krishna/Radhe</li>
         <li>Age groups: Upto 5 yrs & 5–10 yrs</li>
         <li>No edits, watermarks, blurs, or screenshots</li>
         <li>Only clear, high-quality photos in .jpg/.jpeg/.png (max 4MB)</li>
