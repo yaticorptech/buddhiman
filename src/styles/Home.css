@@ -265,9 +265,7 @@ text-align: right ;
   width: 360px;
   height: 225px;
 }
-.expandButton{
-  background-color: gray;
-}
+
 .category-title {
   margin: 20px;
   font-size: 1.5rem;
@@ -326,7 +324,7 @@ text-align: right ;
   width: 100%;
   padding: 8px;
   border-radius: 5px;
-  background-color: var(--primary-color);
+  background-color: gray;
   border: none;
   color: #fff;
   cursor: pointer;
