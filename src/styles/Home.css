@@ -243,7 +243,7 @@ text-align: right ;
 .menuItem {
   border: 2px solid;
   /* border-image: linear-gradient(to bottom, rgb(255, 106, 0), rgb(255, 255, 255), rgb(0, 161, 38)) 1; */
-  border-color: #278ef3;
+  border-color: #f32727;
   border-radius: 10px;
   background: #ffffff;
   display: grid;
@@ -264,6 +264,9 @@ text-align: right ;
 .eventimage {
   width: 360px;
   height: 225px;
+}
+.expandButton{
+  background-color: gray;
 }
 .category-title {
   margin: 20px;
