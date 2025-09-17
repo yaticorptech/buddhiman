@@ -49,9 +49,8 @@ function MenuItemCard({ menuItem, refEl }) {
       </div>
 
       {/* Only this button triggers the route */}
-      <Link to={menuItem.Link}>
-        <button className="expandButton">View Events</button>
-      </Link>
+        <button className="expandButton">Event Expired</button>
+      
     </div>
   );
 }
