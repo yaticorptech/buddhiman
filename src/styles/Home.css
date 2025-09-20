@@ -539,9 +539,14 @@ text-align: right ;
   background-size: cover;
   padding: 50px 20px;
   text-align: center;
+
+}
+.jury1{
+  width: 1000px;
+  height: 500px;
   border: 1px solid;
-  border-radius: 15px;
-  border-color: #000000;
+  border-color:linear-gradient(to bottom, rgb(255, 204, 94), rgb(255, 255, 255)) ;
+
 }
 /* ========== Responsive for Extra Small Devices (Phones < 480px) ========== */
 
