@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../assets/buddhimanLOGOfinal.png';
+import Logo from '../assets/buddhiman_navratri.png';
 import '../styles/Navbar.css';
 
 export default function Navbar() {
@@ -38,7 +38,7 @@ export default function Navbar() {
     <div className={`navbar ${showNavbar ? 'navbar--visible' : 'navbar--hidden'}`}>
      <Link to="/" className="leftSide" onClick={closeMenu}>
   <img src={Logo} alt="Logo" />
-  <span className="siteTitle">Buddhiman</span>
+  {/* <span className="siteTitle">Buddhiman</span> */}
 </Link>
 
       <div className="hamburger" onClick={toggleMenu}>

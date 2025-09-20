@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import WhatsAppFloatingButton from './components/WhatsAppFloatingButton';
+
 
 import Home from './pages/Home';
 import Register from './pages/Register'; // Import the Register page
@@ -19,6 +19,7 @@ import Media from './pages/Media'; // Import the Media page
 import ArticlePage from './pages/Article';
 import Ind from './pages/Independence';
 import Ganesha from './pages/Ganesha'
+import Navarathri from './pages/navarathri'
 
 
 
@@ -27,7 +28,6 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <WhatsAppFloatingButton />
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,6 +41,7 @@ function App() {
           <Route path="/ind" element={<Ind />} />
           <Route path="/Krishna" element={<Krishna />} />
           <Route path="/Ganesha" element={<Ganesha />} />
+          <Route path="/navarathri" element={<Navarathri />} />
 
         </Routes>
         <Footer />

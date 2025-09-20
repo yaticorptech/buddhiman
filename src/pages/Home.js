@@ -23,6 +23,7 @@ import aa9 from '../assets/gallery/1.png';
 import aa10 from '../assets/gallery/10.png';
 import aa11 from '../assets/gallery/11.png';
 import aa14 from '../assets/gallery/14.png';
+import jury from '../assets/gallery/jury1.jpg';
 import Logo from '../assets/buddhimanLOGOfinal.png';
 import '../styles/Home.css';
 import { MenuList } from '../helpers/MenuList';
@@ -74,7 +75,6 @@ function Home() {
   const visibleMenu = showAll ? MenuList : MenuList.slice(0, 6);
 
   const symbols = [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8, aa9,aa10,aa11,aa14];
-
   return (
     <>
       <main>
@@ -166,6 +166,10 @@ function Home() {
 
         {/* Rules Section */}
         <section className="rules-reveal">{/* Optional rules section */}</section>
+        <section className='jury'>
+          <div className='juryhead'><h1>Our Esteemed Jury</h1>
+          <img src={jury} alt="jury1" className="jury1" /></div>
+        </section>
       </main>
     </>
   );

@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   height: 70px;
-  background-color: #278df300;
+  background-color: #000033;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -29,13 +29,13 @@
 /* =================== LEFT SECTION (Logo + Title) =================== */
 .leftSide {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  align-items: left;
+  /* gap: 10px; */
   text-decoration: none;
 }
 
 .leftSide img {
-  height: 50px;
+  height: 100px;
   width: auto;
 }
 
@@ -55,13 +55,13 @@
   gap: 10px;
   border: 2px solid;
   border-radius: 100px;
-  border-color: #011752;
+  border-color: #ffffff;
 }
 
 .rightSide a {
   font-weight: bold;
   padding: 5px;
-  color: #011752;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 10px;
   white-space: nowrap;
