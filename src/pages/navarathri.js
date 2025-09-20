@@ -270,7 +270,7 @@ function navarathri() {
             </div>
 
             <div className="Ganesha-heading">
-              <h1>NAVARATHRI</h1>
+              <h1>NAVOTHSAVA</h1>
             </div>
 
             <div className="Ganesha-content">
