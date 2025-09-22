@@ -542,8 +542,8 @@ text-align: right ;
 
 }
 .jury1{
-  width: 1000px;
-  height: 500px;
+  width: 100vw;
+  height: auto;
   border: 1px solid;
   border-color:linear-gradient(to bottom, rgb(255, 204, 94), rgb(255, 255, 255)) ;
 
