@@ -106,7 +106,7 @@ We are hosting Navratri Competitions that blend culture with creativity. From kn
          Photo Contest (Color Theme) 2025 – Colors of Tradition ✨<br/>
 
 <strong>🗓 Registration:</strong> Sept 20 – Oct 2, 2025 <br/><strong>📣 Daily Results: Winners announced next day</strong> <br/>
-<strong>👥 Group Category (min. 3 members)</strong> <strong> 💰 Entry Fee: ₹150<br/></strong>
+<strong>👥 Group Category (minimum 3 members)</strong><br/> <strong> 💰 Entry Fee:</strong> ₹99<br/>
 <strong>🎖 All participants get e-certificate<br/></strong>
 <strong>🏅 Daily Top 5 groups:</strong> Cash Prize, Memento & Certificate<br/>
 
@@ -183,7 +183,7 @@ Open to all age groups | One entry per group per day</li>
          Photo Contest (Color Theme) 2025 – Colors of Tradition ✨<br/>
 
 <strong>🗓 Registration:</strong> Sept 22 – Oct 2, 2025 <br/> <strong>📣 Daily Results: Winners announced next day</strong>
-<br/><strong>👤 Individual Category</strong><br/> 💰 <strong>Entry Fee:</strong> ₹50/day<br/>
+<br/><strong>👤 Individual Category</strong><br/> 💰 <strong>Entry Fee:</strong> ₹49/day<br/>
 <strong>🏅 Daily Top 5 winners:</strong> Cash Prize, Memento & Certificate<br/>
 
 </p>
