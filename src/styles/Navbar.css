@@ -83,7 +83,7 @@
 .bar {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   transition: all 0.3s ease;
 }
 
