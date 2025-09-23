@@ -1,0 +1,125 @@
+.winner_header {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 2.5rem;
+  color: #0012af;
+}
+
+.winner_header span {
+  color: #000000;
+}
+
+.winnerbox {
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+  margin: auto;
+  background: linear-gradient(0deg, #ffd900, #ffffff);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.winner-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin: 50px auto;
+  width: 100%;
+  color: black;
+}
+
+.winner-card {
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+  border: 1px solid #000000;
+}
+
+.winner-photo {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.winner-card h2 {
+  margin: 10px 0 5px;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.winner-card p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+/* ========================= */
+/* RESPONSIVE STYLES         */
+/* ========================= */
+
+/* Large Tablets (≤1200px) */
+@media (max-width: 1200px) {
+  .winner-details {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .winner_header {
+    font-size: 2.2rem;
+    margin-top: 10%;
+  }
+}
+
+/* Tablets (≤992px) */
+@media (max-width: 992px) {
+  .winner-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .winner_header {
+    font-size: 2rem;
+    margin-top: 10%;
+  }
+  .winner-card h2 {
+    font-size: 1.3rem;
+  }
+  .winner-card p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobiles (≤600px) */
+@media (max-width: 600px) {
+  .winner-details {
+    grid-template-columns: 1fr;
+  }
+  .winnerbox {
+    margin-top: 20%;
+    width: 95%;
+    padding: 15px;
+  }
+  .winner_header {
+    font-size: 20px;
+  }
+  .winner_header span {
+    font-size: 15px;
+  }
+  .winner-card {
+    padding: 15px;
+  }
+  .winner-photo {
+    max-height: 250px;
+  }
+  .winner-card h2 {
+    font-size: 1.2rem;
+  }
+  .winner-card p {
+    font-size: 0.9rem;
+  }
+}

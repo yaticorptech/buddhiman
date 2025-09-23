@@ -20,6 +20,8 @@ import ArticlePage from './pages/Article';
 import Ind from './pages/Independence';
 import Ganesha from './pages/Ganesha'
 import Navarathri from './pages/navarathri'
+import Winners from './pages/winners';
+
 
 
 
@@ -42,6 +44,8 @@ function App() {
           <Route path="/Krishna" element={<Krishna />} />
           <Route path="/Ganesha" element={<Ganesha />} />
           <Route path="/navarathri" element={<Navarathri />} />
+                    <Route path="/winners" element={<Winners />} />
+
 
         </Routes>
         <Footer />

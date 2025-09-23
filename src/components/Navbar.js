@@ -59,6 +59,8 @@ export default function Navbar() {
           <Link to="/" onClick={closeMenu}>Home</Link>
         )}
         {/* <Link to="/media" onClick={closeMenu}>Media</Link> */}
+                <Link to="/Winners" onClick={closeMenu}>Our Winners</Link> 
+
       </div>
     </div>
   );
