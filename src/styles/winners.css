@@ -10,14 +10,11 @@
 }
 
 .winnerbox {
-  border: 2px solid #000000;
   border-radius: 12px;
   padding: 20px;
   position: relative;
   width: 80%;
   margin: auto;
-  background: linear-gradient(0deg, #ffd900, #ffffff);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .winner-details {

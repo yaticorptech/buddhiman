@@ -11,18 +11,18 @@ import img6 from '../assets/gallery/img2.png';
 import img7 from '../assets/gallery/img3.png';
 import img8 from '../assets/gallery/img4.jpg';
 import walogo from '../assets/social.png';
-import aa1 from '../assets/gallery/2.png';
-import aa2 from '../assets/gallery/3.png';
-import aa3 from '../assets/gallery/4.png';
-import aa4 from '../assets/gallery/5.png';
-import aa5 from '../assets/gallery/6.png';
-import aa6 from '../assets/gallery/7.png';
-import aa7 from '../assets/gallery/8.png';
-import aa8 from '../assets/gallery/9.png';
-import aa9 from '../assets/gallery/1.png';
-import aa10 from '../assets/gallery/10.png';
-import aa11 from '../assets/gallery/11.png';
-import aa14 from '../assets/gallery/14.png';
+// import aa1 from '../assets/gallery/2.png';
+// import aa2 from '../assets/gallery/3.png';
+// import aa3 from '../assets/gallery/4.png';
+// import aa4 from '../assets/gallery/5.png';
+// import aa5 from '../assets/gallery/6.png';
+// import aa6 from '../assets/gallery/7.png';
+// import aa7 from '../assets/gallery/8.png';
+// import aa8 from '../assets/gallery/9.png';
+// import aa9 from '../assets/gallery/1.png';
+// import aa10 from '../assets/gallery/10.png';
+// import aa11 from '../assets/gallery/11.png';
+// import aa14 from '../assets/gallery/14.png';
 import jury from '../assets/gallery/jury1.jpg';
 import Logo from '../assets/buddhimanLOGOfinal.png';
 import '../styles/Home.css';
@@ -74,7 +74,7 @@ function Home() {
 
   const visibleMenu = showAll ? MenuList : MenuList.slice(0, 6);
 
-  const symbols = [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8, aa9,aa10,aa11,aa14];
+  // const symbols = [aa1, aa2, aa3, aa4, aa5, aa6, aa7, aa8, aa9,aa10,aa11,aa14];
   return (
     <>
       <main>
@@ -97,7 +97,7 @@ function Home() {
               <img src={walogo} alt="WhatsApp Logo" className="whatsapp-logo" />
               <span className="register">Register Now</span>
             </button>
-             {symbols.map((src, idx) => (
+             {/* {symbols.map((src, idx) => (
               <img
                 key={idx}
                 src={src}
@@ -105,7 +105,7 @@ function Home() {
                 className={`symbol-img symbol${idx + 1}`}
                 ref={(el) => (symbolRefs.current[idx] = el)}
               />
-            ))}
+            ))} */}
           </div>
         </section>
 
