@@ -166,10 +166,10 @@ function Home() {
 
         {/* Rules Section */}
         <section className="rules-reveal">{/* Optional rules section */}</section>
-        <section className='jury'>
+        {/* <section className='jury'>
           <div className='juryhead'><h1>Our Esteemed Jury</h1>
           <img src={jury} alt="jury1" className="jury1" /></div>
-        </section>
+        </section> */}
       </main>
     </>
   );
