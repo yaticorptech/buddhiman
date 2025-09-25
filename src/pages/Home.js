@@ -166,10 +166,11 @@ function Home() {
 
         {/* Rules Section */}
         <section className="rules-reveal">{/* Optional rules section */}</section>
-        {/* <section className='jury'>
+         {/* <section className='jury'>
           <div className='juryhead'><h1>Our Esteemed Jury</h1>
-          <img src={jury} alt="jury1" className="jury1" /></div>
-        </section> */}
+          <p> To ensure that all participants are judged fairly and without any bias, we have decided to keep our jury panel confidential throughout the duration of the competitions. This approach helps maintain complete impartiality in the evaluation process and ensures that every decision is based solely on merit. The identities of the jury members will be revealed only after the competitions have concluded.</p>
+          </div>
+        </section>  */}
       </main>
     </>
   );

@@ -1,122 +1,163 @@
+/* ===== Page Wrapper ===== */
+.winners-page {
+  padding: 2rem;
+  background: #fafafa;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Event Buttons ===== */
+/* Add this at the end of winners.css */
+.eventbutton {
+  position: relative;     /* ensure it creates its own stacking context */
+  z-index: 5;             /* place it above the navbar if needed */
+  margin-top: 2rem;  
+  margin-bottom: 2rem;
+    gap: 10px;  
+  display: flex;   /* push it down below the header/nav */
+  justify-content: center;
+}
+
+
+.eventbutton button {
+  /* background: #eee; */
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.eventbutton button:hover {
+  background: #333;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Optional: Different brand colours per button */
+.Navothsava { background: #ffd642; }
+.Ganesha    { background: #fb956c; }
+.Krishna    { background: #72b2e0; }
+.Independence { background: #a4dd7f; }
+.All        { background: #dcdcdc; }
+
+.eventbutton .Navothsava:hover    { background: #d4b843; color: #fff; }
+.eventbutton .Ganesha:hover       { background: #e68a7e; color: #fff; }
+.eventbutton .Krishna:hover       { background: #6aa0c7; color: #fff; }
+.eventbutton .Independence:hover  { background: #92c97a; color: #fff; }
+.eventbutton .All:hover           { background: #aaa; color: #fff; }
+
+/* ===== Heading ===== */
 .winner_header {
   text-align: center;
-  margin-top: 5%;
-  font-size: 2.5rem;
-  color: #0012af;
+  margin-bottom: 3rem;
+  margin-top: 6%;
+  
 }
-
-.winner_header span {
+.winnerbox{
+  border: #000000;
+}
+.winnerbox h1 {
+  font-size: 4.5rem;
   color: #000000;
+  margin-bottom: 0.5rem;
 }
 
-.winnerbox {
-  border-radius: 12px;
-  padding: 20px;
-  position: relative;
-  width: 80%;
-  margin: auto;
+.winnerbox span {
+  font-size: 1.2rem;
+  color: #000000;
+  
 }
 
+/* ===== Winner Cards ===== */
 .winner-details {
+  margin-top: 4%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  justify-items: center;
-  margin: 50px auto;
-  width: 100%;
-  color: black;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
 }
 
 .winner-card {
   background: #fff;
   border-radius: 12px;
-  width: 100%;
-  max-width: 400px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   text-align: center;
-  transition: transform 0.3s;
-  border: 1px solid #000000;
+  padding: 1.5rem;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.winner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
 }
 
 .winner-photo {
+  max-height: 260px;
   width: 100%;
   height: auto;
-  max-height: 350px;
   object-fit: contain;
-  border-radius: 12px;
-  margin-bottom: 15px;
 }
 
+
 .winner-card h2 {
-  margin: 10px 0 5px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #222;
+  margin: 0.5rem 0;
 }
 
 .winner-card p {
+  margin: 0.25rem 0;
+  color: #555;
   font-size: 1rem;
-  color: #000000;
 }
 
-/* ========================= */
-/* RESPONSIVE STYLES         */
-/* ========================= */
-
-/* Large Tablets (≤1200px) */
-@media (max-width: 1200px) {
-  .winner-details {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .winner_header {
-    font-size: 2.2rem;
-    margin-top: 10%;
-  }
+/* ===== No Winners Message ===== */
+.no-winners {
+  grid-column: 1/-1;
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  margin-top: 2rem;
 }
 
-/* Tablets (≤992px) */
-@media (max-width: 992px) {
-  .winner-details {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .winner_header {
-    font-size: 2rem;
-    margin-top: 10%;
-  }
-  .winner-card h2 {
-    font-size: 1.3rem;
-  }
-  .winner-card p {
-    font-size: 0.95rem;
-  }
-}
+/* ===== Responsive Tweaks ===== */
+@media (min-width: 320px) and (max-width: 425px) {
+    .eventbutton {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+        
 
-/* Mobiles (≤600px) */
-@media (max-width: 600px) {
-  .winner-details {
-    grid-template-columns: 1fr;
   }
-  .winnerbox {
-    margin-top: 20%;
-    width: 95%;
-    padding: 15px;
+  .eventbutton button {
+        font-size: 10px;
+        padding: 10px;
+        width: max-content;
+        align-content: center;
+        justify-content: center;
+
   }
-  .winner_header {
-    font-size: 20px;
+  .winnerbox h1 {
+    font-size: 3rem;
+    margin-top: 15%;
   }
-  .winner_header span {
-    font-size: 15px;
+
+ .winnerbox span {
+    font-size: 25px;
+    margin-top: 15%;
   }
-  .winner-card {
-    padding: 15px;
+
+}
+@media (min-width: 426px) and (max-width: 520px) {
+  .eventbutton button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.1rem;
   }
   .winner-photo {
-    max-height: 250px;
-  }
-  .winner-card h2 {
-    font-size: 1.2rem;
-  }
-  .winner-card p {
-    font-size: 0.9rem;
+    height: 200px;
   }
 }
+
